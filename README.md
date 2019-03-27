@@ -24,22 +24,23 @@ _all remarks are welcomes_
 ##### Liste des cours :  
 _Peut-être qu'un jour je mettrais également des screenshots des quiz avec les solutions, si cela vous interesse indiquez-le-moi et je le ferais plus rapidement._
 
-Nom cours | Durée estimé | difficulté | Certificat ? | lien vers le cours
---- |--- |--- |--- |--- |
-Apprenez à coder avec JavaScript | 20 hours | Facile | 2 | https://openclassrooms.com/fr/courses/2984401-apprenez-a-coder-avec-javascript
-Développez une application mobile React Native | 30 hours | Moyenne | 1 | https://openclassrooms.com/fr/courses/4902061-developpez-une-application-mobile-react-native
+Techno | Nom cours | Durée estimé | difficulté | terminé? | Activités ? | lien vers le cours
+--- |--- |--- |--- |--- |--- |--- |
+Bootstrap 4 | Prenez en main Bootstrap | 10 hours | Moyenne | non | 0/2 | [lien](https://openclassrooms.com/fr/courses/1885491-prenez-en-main-bootstrap)
+JavaScript | Apprenez à coder avec JavaScript | 20 hours | Facile | oui | 2/1 | [lien](https://openclassrooms.com/fr/courses/2984401-apprenez-a-coder-avec-javascript)
+React Native | Développez une application mobile React Native | 30 hours | Moyenne | _en cours_ | 0/1 | [lien](https://openclassrooms.com/fr/courses/4902061-developpez-une-application-mobile-react-native)
 
 
 
 
-##### Code des Certificats disponible ; _French MOOC_. 
+##### Liste des codes de Certificats disponible ; _French MOOC_. 
 
 Si vous avec un commentaire ou besoin d'explication pour une solution n'hésitez pas.
 
 Nom dossier | nombre d'activitées | Note
 --- |--- |--- 
-Apprenez a coder avec JavaScript | 2 | Il semblerait que la première activité ai été supprimée du site et qu'il n'y a dorénavant plus qu'une seule activité
-Developpez une application mobile React Native | 1 | soon
+Apprenez a coder avec JavaScript | 2/2 | Il semblerait que la première activité ai été supprimée du site et qu'il n'y a dorénavant plus qu'une seule activité
+Developpez une application mobile React Native | 0/1 | soon
 
 
 <br>
