@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+{% load static %}  <!-- chargement de la bibliotheque img /static -->
+
+<html lang="fr">
+<head>
+    <link rel="stylesheet" href="/media/css/style.css" />
+    <title>{% block title %}Mon blog sur les crêpes bretonnes{% endblock %}</title>
+</head>
+
+<body background="{% static 'img/bg2.jpg' %}">
+
+<header>Crêpes bretonnes</header>
+    <nav>
+        {% block nav %} <!-- TODO : LES TROIS LIENS CI-DESSOUS NE MARCHE PAS !-->
+        <ul>
+            <li><a href="/">Accueil</a></li>
+            <li><a href="/blog/">Blog</a></li>
+            <li><a href="contact/">Contact</a></li> <!-- marche partout sauf si on est deja dans contact-->
+        </ul>
+        {% endblock %}
+    </nav>
+    <section id="content">
+        {% block content %}{% endblock %}
+    </section>
+<footer>&copy; Crêpes bretonnes</footer>
+</body>
+</html>

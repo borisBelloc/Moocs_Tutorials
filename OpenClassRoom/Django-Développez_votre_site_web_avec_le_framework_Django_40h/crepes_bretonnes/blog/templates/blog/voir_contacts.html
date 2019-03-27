@@ -1,0 +1,55 @@
+{% extends "base.html" %} <!-- recupere base.html -->
+
+{% block content %}
+
+<hr />
+<h1>Liste des contacts</h1>
+<hr />
+{% for contact in contacts %}
+
+
+
+
+
+    <hr />
+
+
+    <table class="tg">
+            <colgroup>
+                <col style="width: 300px">
+                <col style="width: 190px">
+            </colgroup>
+        <tr>
+            <th class="tg-yw4l" align="left">
+
+                <h2>{{ contact.nom }}</h2>
+                <u>Adresse :</u> {{ contact.adresse|linebreaks }}<br/>
+
+            </th>
+
+
+
+          <th class="tg-yw4l">
+                
+                <img width="200px" height="200px" src="{{ contact.photo.url }}"/>
+                
+          </th>
+        </tr>
+      </table>
+      <hr />
+
+
+{% endfor %}
+
+
+
+
+
+
+
+
+
+
+
+
+{% endblock %}
