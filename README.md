@@ -30,10 +30,10 @@ _Peut-être qu'un jour je mettrais également des screenshots des quiz avec les 
 Techno | Nom cours | Durée estimé | difficulté | terminé? | Activités ? | lien vers le cours
 --- |--- |--- |--- |--- |--- |--- |
 React Native | Développez une application mobile React Native | 30 hours | Moyenne | _en cours_ | 0/1 | [lien](https://openclassrooms.com/fr/courses/4902061-developpez-une-application-mobile-react-native)
-JavaScript | Apprenez à coder avec JavaScript | 20 hours | Facile | oui | 2/2 | [lien](https://openclassrooms.com/fr/courses/2984401-apprenez-a-coder-avec-javascript)
+JavaScript | Apprenez à coder avec JavaScript | 20 hours | Facile | :white_check_mark: | 2/2 | [lien](https://openclassrooms.com/fr/courses/2984401-apprenez-a-coder-avec-javascript)
 Bootstrap 4 | Prenez en main Bootstrap | 10 hours | Moyenne | non | 0/2 | [lien](https://openclassrooms.com/fr/courses/1885491-prenez-en-main-bootstrap)
-Django/Python | Découvrez le framework Django | 20 hours | Moyenne | oui | 1/1 | [lien](https://openclassrooms.com/fr/courses/4425076-decouvrez-le-framework-django)
-API REST (IBM) | Utilisez des API REST dans vos projets web | 6 hours | Facile | oui | 1/1 | [lien](https://openclassrooms.com/fr/courses/3449001-utilisez-des-api-rest-dans-vos-projets-web)
+Django/Python | Découvrez le framework Django | 20 hours | Moyenne | :white_check_mark: | 1/1 | [lien](https://openclassrooms.com/fr/courses/4425076-decouvrez-le-framework-django)
+API REST (IBM) | Utilisez des API REST dans vos projets web | 6 hours | Facile | :white_check_mark: | 1/1 | [lien](https://openclassrooms.com/fr/courses/3449001-utilisez-des-api-rest-dans-vos-projets-web)
 
 
 
