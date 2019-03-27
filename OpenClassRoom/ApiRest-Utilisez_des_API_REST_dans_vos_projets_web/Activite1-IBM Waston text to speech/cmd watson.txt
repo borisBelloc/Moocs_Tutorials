@@ -1,0 +1,36 @@
+en-US_AllisonVoice
+en-US_LisaVoice
+en-US_MichaelVoice
+en-GB_KateVoice
+es-ES_EnriqueVoice
+es-ES_LauraVoice
+es-LA_SofiaVoice
+es-US_SofiaVoice
+de-DE_DieterVoice
+de-DE_BirgitVoice
+fr-FR_ReneeVoice
+it-IT_FrancescaVoice
+ja-JP_EmiVoice
+pt-BR_IsabelaVoice
+
+--- fichier impossible lire
+curl -X POST -u "{14e67ed1-95b8-4a87-8f76-266cd0891f8d}:{YdF1eLWJk1AF}" --header "Content-Type: application/json" --header "Accept: audio/wav" --data "{\"text\":\"Hello BOB BOB world\"}" --output hello_bob_world.wav "https://stream.watsonplatform.net/text-to-speech/api/v1/synthesize?voice=en-US_AllisonVoice"
+
+
+--- commande base
+ 
+curl -X POST -u "{14e67ed1-95b8-4a87-8f76-266cd0891f8d}:{YdF1eLWJk1AF}" --header "Content-Type: application/json" --header "Accept: audio/wav" --data "{\"text\":\"Hello world\"}" --output hello_world.wav "https://stream.watsonplatform.net/text-to-speech/api/v1/synthesize?voice=en-US_AllisonVoice"
+
+curl -X POST -u "{14e67ed1-95b8-4a87-8f76-266cd0891f8d}:{YdF1eLWJk1AF}" --header "Content-Type: application/json" --header "Accept: audio/wav" --data "{\"text\":\"Hello hello world\"}" --output tesg.wav "https://stream.watsonplatform.net/text-to-speech/api/v1/synthesize?voice=en-GB_KateVoice"
+
+
+curl -X POST -u "{14e67ed1-95b8-4a87-8f76-266cd0891f8d}:{YdF1eLWJk1AF}" --header "Content-Type: application/json" --header "Accept: audio/mp3" 
+--data "{\"text\": \"This is the first sentence of the paragraph. Here is another sentence. Finally, this is the last sentence\"}" 
+--output hello_world2.mp3 "https://stream.watsonplatform.net/text-to-speech/api/v1/synthesize?voice=en-GB_KateVoice"
+
+
+curl -X POST -u 14e67ed1-95b8-4a87-8f76-266cd0891f8d:YdF1eLWJk1AF --header "Content-Type: application/json" --header "Accept: audio/wav" --data "{\"text\":\"Hello world\"}" --output hello_world.wav "https://stream.watsonplatform.net/text-to-speech/api/v1/synthesize?voice=en-US_AllisonVoice"
+
+------- Exercice OCR -  FRENCH (sans accent, apostrohpe)
+
+curl -X POST -u 14e67ed1-95b8-4a87-8f76-266cd0891f8d:YdF1eLWJk1AF --header "Content-Type: application/json" --header "Accept: audio/wav" --data "{\"text\":\"Bonjour, merci de corriger mon exercice, je vous met un texte cours afin de ne pas vous faire perdre trop de temps. Au revoir\"}" --output merci.wav "https://stream.watsonplatform.net/text-to-speech/api/v1/synthesize?voice=fr-FR_ReneeVoice"
