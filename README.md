@@ -39,7 +39,7 @@ Si vous avec un commentaire ou besoin d'explication pour une solution n'hésitez
 Nom dossier | nombre d'activitées | Note
 --- |--- |--- 
 Apprenez à coder avec JavaScript | 2 | Il semblerait que la première activité ai été supprimée du site et qu'il n'y a dorénavant plus qu'une seule activité
-
+Développez une application mobile React Native | 1 | soon
 
 
 <br>
