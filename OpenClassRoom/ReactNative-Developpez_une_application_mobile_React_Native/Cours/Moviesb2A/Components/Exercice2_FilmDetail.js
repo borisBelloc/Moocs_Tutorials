@@ -1,9 +1,7 @@
 import React from 'react'
 
-import { StyleSheet, View, Text, Image, ActivityIndicator, ScrollView } from 'react-native'
+import { StyleSheet, View, Text, ActivityIndicator, ScrollView } from 'react-native'
 import { getFilmDetailFromApi } from '../API/TMDBApi'
-
-// import { getImageFromApi } from '../API/TMDBApi'
 
 class FilmDetail extends React.Component {
 
@@ -36,19 +34,10 @@ class FilmDetail extends React.Component {
   }
 
   _displayFilm() {
-    const { film } = this.state
     if (this.state.film != undefined) { // on s'assure qu'un film a été choisi
       return (
         <ScrollView style={styles.scrollview_container}>
-{/* 
-          <Image
-            style={styles.image}
-            source={{ uri: getImageFromApi(film.poster_path) }}
-          /> */}
-
-
-          <Text>AAAAA</Text>
-          <Text>{this.film.title}</Text>
+          <Text>{this.state.film.title}</Text>
           {/* Pour l'instant je n'affiche que le titre, je vous laisserais le soin de créer la vue. Après tout vous êtes aussi là pour ça non ? :)*/}
         </ScrollView>
       )
@@ -56,20 +45,20 @@ class FilmDetail extends React.Component {
   }
 
 
-  render() {
-    console.log("Component FilmDetail rendu")
-    // console.log(this.props.navigation)
-    // const idFilm = this.props.navigation.state.params.idFilm // on récupere l'idFilm que l'on a fait passer ligne62 de search.js
-    // comment trouver le chemin : https://openclassrooms.com/fr/courses/4902061-developpez-une-application-mobile-react-native/5046301-concevez-une-navigation-entre-vos-vues#/id/r-5046484
-    return (
-      <View style={styles.main_container}>
-        {this._displayLoading()}
-        {this._displayFilm()}
-        {/* on peut également mettre directement le chemin au lieu de passer par une variable : */}
-        {/* <Text>Détail du film { this.props.navigation.state.params.idFilm }</Text> */}
-      </View>
-    )
-  }
+render() {
+  console.log("Component FilmDetail rendu")
+  // console.log(this.props.navigation)
+  // const idFilm = this.props.navigation.state.params.idFilm // on récupere l'idFilm que l'on a fait passer ligne62 de search.js
+  // comment trouver le chemin : https://openclassrooms.com/fr/courses/4902061-developpez-une-application-mobile-react-native/5046301-concevez-une-navigation-entre-vos-vues#/id/r-5046484
+  return (
+    <View style={styles.main_container}>
+      {this._displayLoading()}
+      {this._displayFilm()}
+      {/* on peut également mettre directement le chemin au lieu de passer par une variable : */}
+      {/* <Text>Détail du film { this.props.navigation.state.params.idFilm }</Text> */}
+    </View>
+  )
+}
 }
 
 const styles = StyleSheet.create({
