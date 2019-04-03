@@ -13,6 +13,10 @@ _all remarks are welcomes_
 Liste of sites (_more to come_) :
 - A : [Open Class Room (FR)](https://openclassrooms.com/fr/) / (code for one month premium free : BORIS-JA3E )
 
+<br>
+<br>
+
+
 Some randoms Tutorials links (that's my own memo) :innocent:
 
 - [Redux: Official](https://redux.js.org/) _A predictable state container for JavaScript apps (I used it with React Native)._
