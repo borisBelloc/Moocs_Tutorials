@@ -13,10 +13,11 @@ _all remarks are welcomes_
 Liste of sites (_more to come_) :
 - A : [Open Class Room (FR)](https://openclassrooms.com/fr/) / (code for one month premium free : BORIS-JA3E )
 
-Official Tuto (_soon_)
+Some randoms Tutorials links (that's my own memo) :innocent:
 
--
--
+- [Redux: Official](https://redux.js.org/) _A predictable state container for JavaScript apps (I used it with React Native)._
+- [Redux: English tutorials vidéos by one of its creator](https://egghead.io/courses/getting-started-with-redux)
+- [Django: Official](https://www.djangoproject.com/) _Python Web framework_
 
 <br>
 <br>

@@ -29,3 +29,6 @@ Reminder :
 (budget, formatting and manipulating numbers) ; [Official website](http://numeraljs.com/)
 
 > ```npm install --save numeral```
+
+### Redux
+Helps and allow to manage a global state
