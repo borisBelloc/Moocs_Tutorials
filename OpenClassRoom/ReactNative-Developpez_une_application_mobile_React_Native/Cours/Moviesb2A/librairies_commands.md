@@ -31,4 +31,12 @@ Reminder :
 > ```npm install --save numeral```
 
 ### Redux
-Helps and allow to manage a global state
+Helps and allow to manage a global state ; [Official website](https://redux.js.org/)
+_The first library allows you to use Redux in your application. The second offers extra features that are very useful when developing on React :_
+
+> ```npm install --save redux```
+
+> ```npm install --save react-redux```
+
+> ```npm install```
+

@@ -1,10 +1,11 @@
 import React from 'react'
 
-import { StyleSheet, View, Text, Image, ActivityIndicator, ScrollView } from 'react-native'
+import { StyleSheet, View, Text, Image, ActivityIndicator, ScrollView, Button } from 'react-native'
 import { getFilmDetailFromApi, getImageFromApi } from '../API/TMDBApi'
 
 import moment from 'moment'
 import numeral from 'numeral'
+import { connect } from 'react-redux'
 
 class FilmDetail extends React.Component {
   constructor(props) {
@@ -20,9 +21,15 @@ class FilmDetail extends React.Component {
     getFilmDetailFromApi(this.props.navigation.state.params.idFilm).then(data => {
       this.setState({
         film: data,
+        // moNom: "Boris",
         isLoading: false
       })
     })
+  }
+
+  componentDidUpdate() {
+    console.log("componentDidUpdate : ")
+    console.log(this.props.favoritesFilm)
   }
 
   _displayLoading() {
@@ -34,6 +41,12 @@ class FilmDetail extends React.Component {
       )
     }
   }
+
+  _toggleFavorite() {
+    const action = { type: "TOGGLE_FAVORITE", value: this.state.film }
+    this.props.dispatch(action) // envois de l'action au store redux !!
+  }
+
 
   _displayFilm() {
     const { film } = this.state
@@ -47,6 +60,9 @@ class FilmDetail extends React.Component {
           />
 
           <Text style={styles.title_text}>{film.title}</Text>
+
+          <Button title="Favoris" onPress={() => this._toggleFavorite()} />
+
           <Text style={styles.description_text}>{film.overview}</Text>
           <Text style={styles.default_text}>Sorti le {moment(new Date(film.release_date)).format('DD/MM/YYYY')}</Text>
           <Text style={styles.default_text}>Note : {film.vote_average} / 10</Text>
@@ -65,10 +81,10 @@ class FilmDetail extends React.Component {
     }
   }
 
-
   render() {
+    // console.log(this.state.moNom) // "Boris" -> string "Boris" dans le state
+    // console.log(this.props) // redux -> on vois le favoris lié a l'objet
     // console.log("Component FilmDetail rendu")
-    // console.log(this.props.navigation)
     // const idFilm = this.props.navigation.state.params.idFilm // on récupere l'idFilm que l'on a fait passer ligne62 de search.js
     // comment trouver le chemin : https://openclassrooms.com/fr/courses/4902061-developpez-une-application-mobile-react-native/5046301-concevez-une-navigation-entre-vos-vues#/id/r-5046484
     return (
@@ -120,14 +136,21 @@ const styles = StyleSheet.create({
     margin: 5,
     marginBottom: 15
   },
-  default_text: {
+  default_text: {
     marginLeft: 5,
     marginRight: 5,
     marginTop: 5,
   },
 })
 
-export default FilmDetail
+// export default FilmDetail <- before redux
+const mapStateToProps = (state) => { // connection du state global au props du component FilmDetail
+  return {
+    //on indique le state qui nous interesse :
+    favoritesFilm: state.favoritesFilm
+  }
+}
+export default connect(mapStateToProps)(FilmDetail)
 
 
 // ATTENTION : depuis react Navigation 2 on peut utiliser getParam :
