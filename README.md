@@ -36,7 +36,7 @@ _French MOOC ; (explain the french description)_
 #### Liste des cours :  
 _Peut-être qu'un jour je mettrais également des screenshots des quiz avec les solutions, si cela vous interesse indiquez-le-moi et je le ferais plus rapidement._
 
-:arrow_double_down: From Newest to older
+:arrow_double_down: From Newest to oldest
 
 Techno | Nom cours | Durée estimé | difficulté | terminé? | Activités ? | lien vers le cours
 --- |--- |--- |--- |--- |--- |--- |
@@ -53,7 +53,7 @@ API REST (IBM) | Utilisez des API REST dans vos projets web | 6 hours | Facile |
 
 Si vous avec un commentaire ou besoin d'explication pour une solution n'hésitez pas.
 
-:arrow_double_down: From Newest to older
+:arrow_double_down: From Newest to oldest
 
 Nom dossier | nombre d'activitées | Note
 --- |--- |--- 
