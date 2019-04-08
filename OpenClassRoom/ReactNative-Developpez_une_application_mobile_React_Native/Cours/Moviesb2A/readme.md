@@ -1,4 +1,5 @@
-Reminder :
+# list of modules and commands
+
 ### Install env : 
 * Install nodeJS
 * instal EXPO : ```npm install -g expo-cli```
