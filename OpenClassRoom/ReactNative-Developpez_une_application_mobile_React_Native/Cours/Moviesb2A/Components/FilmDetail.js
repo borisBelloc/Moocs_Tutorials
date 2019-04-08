@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { StyleSheet, View, Text, Image, ActivityIndicator, ScrollView, Button } from 'react-native'
+import { StyleSheet, View, Text, Image, ActivityIndicator, ScrollView, TouchableOpacity } from 'react-native'
 import { getFilmDetailFromApi, getImageFromApi } from '../API/TMDBApi'
 
 import moment from 'moment'
@@ -47,6 +47,21 @@ class FilmDetail extends React.Component {
     this.props.dispatch(action) // envois de l'action au store redux !!
   }
 
+  _displayFavoriteImage() {
+    // DOC: Image static : https://facebook.github.io/react-native/docs/images.html#static-image-resources
+    let sourceImage = require('../Images/unfavorite.png')
+    if (this.props.favoritesFilm.findIndex(item => item.id === this.state.film.id) !== -1) {
+      // Film dans nos favoris
+      sourceImage = require('../Images/favorite.png')
+    }
+    return (
+      <Image
+        style={styles.favorite_image}
+        source={sourceImage}
+      />
+    )
+  }
+
 
   _displayFilm() {
     const { film } = this.state
@@ -61,7 +76,13 @@ class FilmDetail extends React.Component {
 
           <Text style={styles.title_text}>{film.title}</Text>
 
-          <Button title="Favoris" onPress={() => this._toggleFavorite()} />
+          {/* <Button title="Favoris" onPress={() => this._toggleFavorite()} />  Ancien button*/}
+
+          <TouchableOpacity
+            style={styles.favorite_container}
+            onPress={() => this._toggleFavorite()}>
+            {this._displayFavoriteImage()}
+          </TouchableOpacity>
 
           <Text style={styles.description_text}>{film.overview}</Text>
           <Text style={styles.default_text}>Sorti le {moment(new Date(film.release_date)).format('DD/MM/YYYY')}</Text>
@@ -140,6 +161,13 @@ const styles = StyleSheet.create({
     marginLeft: 5,
     marginRight: 5,
     marginTop: 5,
+  },
+  favorite_container: {
+    alignItems: 'center' // centre horizontalement dans le touchableOpacity
+  },
+  favorite_image: {
+    width: 40,
+    height: 40
   },
 })
 
