@@ -16,32 +16,13 @@ class FilmItem extends React.Component {
     }
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   render() {
-
     // Les deux lignes suivante sont équivalente la 3eme ligne :
     // const film = this.props.film
     // const displayDetailForFilm = this.props.displayDetailForFilm
     const { film, displayDetailForFilm } = this.props // <- ici
     return (
-      // console.log(this.props.film), 
+      // console.log(this.props.film.id), 
       <TouchableOpacity
         onPress={() => displayDetailForFilm(film.id)}
         style={styles.main_container}>
@@ -53,6 +34,7 @@ class FilmItem extends React.Component {
 
         <View style={styles.content_container}>
           <View style={styles.header_container}>
+
             {this._displayFavoriteImage() /* COEUR FAVORIS */ } 
 
             <Text style={styles.title_text}>{film.title}</Text>

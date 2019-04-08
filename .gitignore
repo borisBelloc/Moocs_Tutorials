@@ -2,3 +2,7 @@ OpenClassRoom/JS-Apprenez_a_coder_avec_JavaScript/Activite2-ListeContact/autre_p
 OpenClassRoom/Django-Decouvrez_le_framework_Django_20h/theme_bootstrap
 
 *.vscode
+
+# ReactNative - Developpez une application mobile React Native
+
+OpenClassRoom/ReactNative-Developpez_une_application_mobile_React_Native/Cours/Moviesb2A/node_modules/*

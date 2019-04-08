@@ -4,7 +4,7 @@ const API_TOKEN = "0588ec4965273b578f2e3c96c95c2e07"
 // exemple doc : https://api.themoviedb.org/3/search/movie?api_key={api_key}&query=Jack+Reacher
 
 export function getFilmsFromApiWithSearchedText(text, page){
-  const url = "https://api.themoviedb.org/3/search/movie?api_key=" + API_TOKEN + "&language=f&query=" + text + '&page=' + page
+  const url = "https://api.themoviedb.org/3/search/movie?api_key=" + API_TOKEN + "&language=fr&query=" + text + '&page=' + page
   // fetch : librairie javascript
   return fetch(url)
     .then((response) => response.json())
