@@ -1,9 +1,12 @@
 import React from 'react'
 import { StyleSheet, View, Button, TextInput, Text, FlatList, ActivityIndicator } from 'react-native'
-import films from '../Helpers/filmsData'
+// import films from '../Helpers/filmsData'
 
-import FilmItem from './FilmItem'
 import { getFilmsFromApiWithSearchedText } from '../API/TMDBApi'
+import FilmItem from './FilmItem'
+
+import { connect } from 'react-redux' // sert à connecter le store redux a Search.js
+
 
 
 class Search extends React.Component {
@@ -11,7 +14,6 @@ class Search extends React.Component {
   constructor(props) {
     super(props)
     this.searchedText = "" // Initialisation de notre donnée searchedText en dehors du state
-
     this.page = 0 // on initialise le numéro de la page
     this.totalPages = 0
 
@@ -59,6 +61,7 @@ class Search extends React.Component {
   }
 
   _displayDetailForFilm = (idFilm) => {
+    console.log("Display film with id " + idFilm)
     this.props.navigation.navigate("FilmDetail", { idFilm: idFilm }) // <- Screen du tabnavigator dans Navigation.js, paramettre a faire passer : navigate('RouteName', { parameters })
   }
 
@@ -95,22 +98,33 @@ class Search extends React.Component {
 
         <Button title="Rechercher" onPress={() => { this._searchFilms() }} />
 
-        {/* https://facebook.github.io/react-native/docs/flatlist.html */}
+        {/* DOC: https://facebook.github.io/react-native/docs/flatlist.html */}
         <FlatList
           // Data : Données a afficher ; on récupere le parametre film de l'objet state ligne 17
           data={this.state.films}
+          // On utilise la prop extraData pour indiquer à notre FlatList que d’autres données doivent être prises en compte si on lui demande de se re-rendre
+          extraData={this.props.favoritesFilm}
+
           // keyExtractor : on définis l'identifiant unique qui nome les objets 
           keyExtractor={(item) => item.id.toString()}
+
           // renderItem : template pour afficher les données
+          renderItem={({ item }) =>
+            <FilmItem
+              film={item}
+              // Ajout d'une props isFilmFavorite pour indiquer à l'item d'afficher un 🖤 ou non
+              isFilmFavorite={(this.props.favoritesFilm.findIndex(film => film.id === item.id) !== -1) ? true : false}
+
+              displayDetailForFilm={this._displayDetailForFilm}
+            />
+          }
           onEndReachedThreshold={0.5} // 0.5 == demi ecran; limite pour déclenché l'action de "end reached"
           onEndReached={() => {
             if (this.page < this.totalPages) {
               this._loadFilms()
             }
           }}
-          renderItem={({ item }) => <FilmItem film={item} displayDetailForFilm={this._displayDetailForFilm} />}
         />
-
         {/* les fonctions appelées dans le render doivent obligatoirement retourner des éléments graphiques : */}
         {this._displayLoading()}
       </View>
@@ -148,5 +162,11 @@ const styles = StyleSheet.create({
 })
 
 // On export le composant afin qu'il puisse être importer dans app.js
-export default Search
 
+// On connecte le store Redux, ainsi que les films favoris du state de notre application, à notre component Search
+const mapStateToProps = (state) => {
+  return {
+    favoritesFilm: state.favoritesFilm
+  }
+}
+export default connect(mapStateToProps)(Search)
