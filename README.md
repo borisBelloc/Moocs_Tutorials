@@ -57,10 +57,11 @@ Si vous avec un commentaire ou besoin d'explication pour une solution n'hésitez
 
 Nom dossier | nombre d'activitées | Note
 --- |--- |--- 
-Developpez une application mobile React Native | 0/1 | soon
+Developpez une application mobile React Native | 0/1 | soon / **(1)**
 JS-Apprenez_a_coder_avec_JavaScript | 2/2 | Il semblerait que la première activité ai été supprimée du site et qu'il n'y a dorénavant plus qu'une seule activité (à confirmer)
 Django-Decouvrez_le_framework_Django_20h | 1/1 | screenshot
 
+**(1)** _ajout correction exercice du chapitre 19 "Construisez une action sur Redux" ; Construire un reducer (Redux) pour gérer l'historique des films consultés_
 
 
 

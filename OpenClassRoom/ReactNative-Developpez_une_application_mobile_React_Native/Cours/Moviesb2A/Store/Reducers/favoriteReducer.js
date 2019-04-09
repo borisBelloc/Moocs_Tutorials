@@ -9,9 +9,10 @@ function toggleFavorite(state = initialState, action) { // on initialise le stat
       const favoriteFilmIndex = state.favoritesFilm.findIndex(item => item.id === action.value.id)
       if (favoriteFilmIndex !== -1) {
         // Le film est déjà dans les favoris, on le supprime de la liste
+        console.log("favoriteFilmIndex -> " + favoriteFilmIndex);
         nextState = {
           ...state,
-          favoritesFilm: state.favoritesFilm.filter((item, index) => index !== favoriteFilmIndex)
+          favoritesFilm: state.favoritesFilm.filter((item, index) => index !== favoriteFilmIndex),
         }
       }
       else {
@@ -21,7 +22,7 @@ function toggleFavorite(state = initialState, action) { // on initialise le stat
           favoritesFilm: [ ...state.favoritesFilm, action.value ]
         }
       }
-      return nextState || state // returne nextState si != indefine sinon returne state
+      return nextState || state // return nextState si != indefine sinon return state
     default:
       return state
   }
