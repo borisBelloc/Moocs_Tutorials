@@ -10,8 +10,8 @@ _all remarks are welcomes_
 
 
 
-List of sites (_more to come_) :
-- A : [Open Class Room (FR)](https://openclassrooms.com/fr/) / (code for one month premium free : BORIS-JA3E )
+:necktie: List of sites where you can find the exercices from this page (_more to come_) :
+- A : [Open Class Room](https://openclassrooms.com/fr/) / (code for one month premium free : BORIS-JA3E )
 
 <br>
 <br>
@@ -19,9 +19,22 @@ List of sites (_more to come_) :
 
 Some randoms Tutorials links (that's my own memo) :innocent:
 
-- [Redux: Official](https://redux.js.org/) _A predictable state container for JavaScript apps (I used it with React Native)._
-- [Redux: English tutorials vidéos by one of its creator](https://egghead.io/courses/getting-started-with-redux)
-- [Django: Official](https://www.djangoproject.com/) _Python Web framework_
+Language/Framework name | ? | lang
+---- |---- |----
+[Redux: Official](https://redux.js.org/) | _A predictable state container for JavaScript apps (I used it with React Native)._ | EN
+[Redux: English tutorials vidéos](https://egghead.io/courses/getting-started-with-redux) | Nice videos made by one of Redux developper. |EN
+[Django: Official](https://www.djangoproject.com/) | _Python Web framework_ | EN FR ...
+[Bootstrap 4.0 Official](https://getbootstrap.com/docs/4.1/getting-started/introduction/) | framework for building responsive website | EN
+[Bootstrap 4.0 @Laravel](https://laravel.sillo.org/bootstrap-4) | A french tutorial about boostrap 4 | FR
+
+<br>
+<br>
+
+## Ressources
+
+What | url
+---- |----
+Bootsrap official exemple templates | https://getbootstrap.com/docs/4.0/examples/
 
 <br>
 <br>
