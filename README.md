@@ -10,7 +10,7 @@ _all remarks are welcomes_
 
 
 
-Liste of sites (_more to come_) :
+List of sites (_more to come_) :
 - A : [Open Class Room (FR)](https://openclassrooms.com/fr/) / (code for one month premium free : BORIS-JA3E )
 
 <br>
@@ -27,8 +27,19 @@ Some randoms Tutorials links (that's my own memo) :innocent:
 <br>
 <br>
 
+### Contributing :pill:
+* if you know any good tutorial for any languages or framework :
+    * send me the link **or**
+    * Create new Pull Request with your link added to the file.
 
+<br>
+<br>
 
+## :leaves::fr: BELOW is about a French MOOC
+
+<br>
+<br>
+<br>
 
 ## Folder name : :orange_book: Open Class Room 
 _French MOOC ; (explain the french description)_
@@ -68,10 +79,7 @@ Django-Decouvrez_le_framework_Django_20h | 1/1 | screenshot
 <br>
 <br>
 
-### Contributing :pill:
-* if you know any good tutorial for any languages or framework :
-    * send me the link **or**
-    * Create new Pull Request with your link added to the file.
+
     
 
 _More to come_
