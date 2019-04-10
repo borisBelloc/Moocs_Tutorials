@@ -11,7 +11,7 @@ _all remarks are welcomes_
 
 
 :necktie: List of sites for which I have uploaded the exercise correction (_more to come_) :
-- A : **Open Class Room** [Click here to jump at the end of the page](#Folder-name-:-:orange_book:-Open-Class-Room)
+- A : **Open Class Room** [Click here to jump at the end of the page](#liste-des-cours-:)
 
 
 <br>
