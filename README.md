@@ -17,8 +17,7 @@ _all remarks are welcomes_
 <br>
 <br>
 
-
-Some randoms Tutorials links (that's my own memo) :innocent:
+List of interesting tutorial for different technologies (that's my own memo) :innocent:
 
 Language/Framework name | ? | lang
 ---- |---- |----
