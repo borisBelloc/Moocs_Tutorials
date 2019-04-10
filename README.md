@@ -35,7 +35,7 @@ Some randoms Tutorials links (that's my own memo) :innocent:
 <br>
 <br>
 
-## :leaves::fr: BELOW is about a French MOOC
+## :leaves: Below is about a French MOOC website :fr:
 
 <br>
 <br>
