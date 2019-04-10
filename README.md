@@ -68,4 +68,11 @@ Django-Decouvrez_le_framework_Django_20h | 1/1 | screenshot
 <br>
 <br>
 
+### Contributing :pill:
+* if you know any good tutorial for any languages or framework :
+    * send me the link **or**
+    * Create new Pull Request with your link added to the file.
+    
+
 _More to come_
+
