@@ -11,7 +11,7 @@ _all remarks are welcomes_
 
 
 :necktie: List of sites for which I have uploaded the exercise correction (_more to come_) :
-- A : **Open Class Room** : [Click here to jump at the end of the page](#liste-des-cours-:)
+- A : **Open Class Room** : [Click here to jump at the end of the page](#liste-des-cours)
 
 
 <br>
@@ -59,7 +59,7 @@ Bootsrap official exemple templates | https://getbootstrap.com/docs/4.0/examples
 ## Folder name : :orange_book: Open Class Room 
 _French MOOC ; (explain the french description)_
 
-#### Liste des cours :
+#### Liste des cours:
 _Peut-être qu'un jour je mettrais également des screenshots des quiz avec les solutions, si cela vous interesse indiquez-le-moi et je le ferais plus rapidement._
 
 :arrow_double_down: From Newest to oldest
