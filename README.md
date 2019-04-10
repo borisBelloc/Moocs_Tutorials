@@ -10,8 +10,9 @@ _all remarks are welcomes_
 
 
 
-:necktie: List of sites where you can find the exercices from this page (_more to come_) :
-- A : [Open Class Room](https://openclassrooms.com/fr/) (jump at the end of the page)
+:necktie: List of sites for which I have uploaded the exercise correction (_more to come_) :
+- A : [Open Class Room](https://openclassrooms.com/fr/) [Click here to jump at the end of the page](Folder-name-:-:orange_book:-Open-Class-Room)
+
 
 <br>
 <br>
@@ -26,6 +27,7 @@ Language/Framework name | ? | lang
 [Django: Official](https://www.djangoproject.com/) | _Python Web framework_ | EN FR ...
 [Bootstrap 4.0 Official](https://getbootstrap.com/docs/4.1/getting-started/introduction/) | framework for building responsive website | EN
 [Bootstrap 4.0 @Laravel](https://laravel.sillo.org/bootstrap-4) | A french tutorial about boostrap 4 | FR
+[VueJS @Laravel](http://laravel.sillo.org/vue-js) | A french tutorial about VueJS | FR
 
 <br>
 <br>
