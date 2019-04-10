@@ -11,7 +11,7 @@ _all remarks are welcomes_
 
 
 :necktie: List of sites where you can find the exercices from this page (_more to come_) :
-- A : [Open Class Room](https://openclassrooms.com/fr/) / (code for one month premium free : BORIS-JA3E )
+- A : [Open Class Room](https://openclassrooms.com/fr/) (jump at the end of the page
 
 <br>
 <br>
