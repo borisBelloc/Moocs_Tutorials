@@ -40,6 +40,7 @@ _Peut-être qu'un jour je mettrais également des screenshots des quiz avec les 
 
 Techno | Cours/url | Durée estimé | difficulté | terminé? | Activités | Quizz
 --- |--- |--- |--- |--- |--- |--- |
+Algorithmie | [Découvrez le fonctionnement des algorithmes](https://openclassrooms.com/fr/courses/4366701-decouvrez-le-fonctionnement-des-algorithmes) | 4 hours  | Facile | _en cours_ | 0/0 | 0/3
 React Native | [Développez une application mobile React Native](https://openclassrooms.com/fr/courses/4902061-developpez-une-application-mobile-react-native) | 30 hours | Moyenne | _en cours_ | 0/1 | /
 JavaScript | [Apprenez à coder avec JavaScript](https://openclassrooms.com/fr/courses/2984401-apprenez-a-coder-avec-javascript) | 20 hours | Facile | :white_check_mark: | 2/2 | /
 Bootstrap 4 | [Prenez en main Bootstrap](https://openclassrooms.com/fr/courses/1885491-prenez-en-main-bootstrap) | 10 hours | Moyenne | non | 0/2 | /
