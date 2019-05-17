@@ -73,7 +73,7 @@ React Native | [Développez une application mobile React Native](https://opencla
 JavaScript | [Apprenez à coder avec JavaScript](https://openclassrooms.com/fr/courses/2984401-apprenez-a-coder-avec-javascript) | 20 hours | Facile | :white_check_mark: | 2/2 | 1/1
 Bootstrap 4 | [Prenez en main Bootstrap](https://openclassrooms.com/fr/courses/1885491-prenez-en-main-bootstrap) | 10 hours | Moyenne | non | 0/2 | 0/1 
 Django/Python | [Développez votre site web avec le framework Django](https://openclassrooms.com/fr/courses/1871271-developpez-votre-site-web-avec-le-framework-django) | 40 hours | Moyenne | non | 0/2 | 2/4
-Django/Python | [Découvrez le framework Django](https://openclassrooms.com/fr/courses/4425076-decouvrez-le-framework-django) | 20 hours | Moyenne | :white_check_mark: | 1/1 | 0/5
+Django/Python | [Découvrez le framework Django](https://openclassrooms.com/fr/courses/4425076-decouvrez-le-framework-django) | 20 hours | Moyenne | :white_check_mark: | 1/1 | 5/5
 Git | [Gérez votre code avec Git et GitHub](https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github) | 6 hours | Facile | :white_check_mark: 2018/06/24 | / | 3/3 |
 API REST (IBM) | [Utilisez des API REST dans vos projets web](https://openclassrooms.com/fr/courses/3449001-utilisez-des-api-rest-dans-vos-projets-web) | 6 hours | Facile | :white_check_mark: | 1/1 | 
 
