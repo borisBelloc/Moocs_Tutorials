@@ -61,22 +61,23 @@ _French MOOC ; (explain the french description)_
 
 #### :orange_book: Liste des cours:
 _Quizz et corrections des activités disponibles_
+_Tous les quizz/activités ne sont pas encore uploadé_
 
 :arrow_double_down: From Newest to oldest
 
 Techno | Cours/url | Durée estimé | difficulté | terminé? | Activités | Quizz
 --- |--- |--- |--- |--- |--- |--- |
-JAVA | [Démarrez votre projet avec Java](https://openclassrooms.com/fr/courses/4975451-demarrez-votre-projet-avec-java) | 15 hours | Facile | _en cours_ | 0 | 1/4)
+JAVA | [Démarrez votre projet avec Java](https://openclassrooms.com/fr/courses/4975451-demarrez-votre-projet-avec-java) | 15 hours | Facile | _en cours_ | 0 | 1/4
 Algorithmie | [Découvrez le fonctionnement des algorithmes](https://openclassrooms.com/fr/courses/4366701-decouvrez-le-fonctionnement-des-algorithmes) | 4 hours | Facile | :white_check_mark: | 0 | 3/3
-React Native | [Développez une application mobile React Native](https://openclassrooms.com/fr/courses/4902061-developpez-une-application-mobile-react-native) | 30 hours | Moyenne | _en pause_ | 0/1 | /
-JavaScript | [Apprenez à coder avec JavaScript](https://openclassrooms.com/fr/courses/2984401-apprenez-a-coder-avec-javascript) | 20 hours | Facile | :white_check_mark: | 2/2 | /
-Bootstrap 4 | [Prenez en main Bootstrap](https://openclassrooms.com/fr/courses/1885491-prenez-en-main-bootstrap) | 10 hours | Moyenne | non | 0/2 | /
-Django/Python | [Développez votre site web avec le framework Django](https://openclassrooms.com/fr/courses/1871271-developpez-votre-site-web-avec-le-framework-django) | 40 hours | Moyenne | non | 0/2 | /
-Django/Python | [Découvrez le framework Django](https://openclassrooms.com/fr/courses/4425076-decouvrez-le-framework-django) | 20 hours | Moyenne | :white_check_mark: | 1/1 | /
-Git | [Gérez votre code avec Git et GitHub](https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github) | 6 hours | Facile | :white_check_mark: 2018/06/24 | 0/2 | 3/3 |
-API REST (IBM) | [Utilisez des API REST dans vos projets web](https://openclassrooms.com/fr/courses/3449001-utilisez-des-api-rest-dans-vos-projets-web) | 6 hours | Facile | :white_check_mark: | 1/1 | /
+React Native | [Développez une application mobile React Native](https://openclassrooms.com/fr/courses/4902061-developpez-une-application-mobile-react-native) | 30 hours | Moyenne | _en pause_ | 0/1 | 
+JavaScript | [Apprenez à coder avec JavaScript](https://openclassrooms.com/fr/courses/2984401-apprenez-a-coder-avec-javascript) | 20 hours | Facile | :white_check_mark: | 2/2 | 
+Bootstrap 4 | [Prenez en main Bootstrap](https://openclassrooms.com/fr/courses/1885491-prenez-en-main-bootstrap) | 10 hours | Moyenne | non | 0/2 | 0/1 
+Django/Python | [Développez votre site web avec le framework Django](https://openclassrooms.com/fr/courses/1871271-developpez-votre-site-web-avec-le-framework-django) | 40 hours | Moyenne | non | 0/2 | 
+Django/Python | [Découvrez le framework Django](https://openclassrooms.com/fr/courses/4425076-decouvrez-le-framework-django) | 20 hours | Moyenne | :white_check_mark: | 1/1 | 0/5
+Git | [Gérez votre code avec Git et GitHub](https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github) | 6 hours | Facile | :white_check_mark: 2018/06/24 | / | 3/3 |
+API REST (IBM) | [Utilisez des API REST dans vos projets web](https://openclassrooms.com/fr/courses/3449001-utilisez-des-api-rest-dans-vos-projets-web) | 6 hours | Facile | :white_check_mark: | 1/1 | 
 
-
+_/ == Plus disponible_
 
 #### Liste des codes de certificats disponible. 
 
