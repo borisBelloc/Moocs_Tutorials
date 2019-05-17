@@ -60,13 +60,13 @@ Bootsrap official exemple templates | https://getbootstrap.com/docs/4.0/examples
 _French MOOC ; (explain the french description)_
 
 #### :orange_book: Liste des cours:
-_Peut-être qu'un jour je mettrais également des screenshots des quiz avec les solutions, si cela vous interesse indiquez-le-moi et je le ferai plus rapidement._
+_Quizz et corrections des activités disponibles_
 
 :arrow_double_down: From Newest to oldest
 
 Techno | Cours/url | Durée estimé | difficulté | terminé? | Activités | Quizz
 --- |--- |--- |--- |--- |--- |--- |
-JAVA | [](https://openclassrooms.com/fr/courses/4975451-demarrez-votre-projet-avec-java | 15 hours | Facile | / | 0 | 0/4)
+JAVA | [](https://openclassrooms.com/fr/courses/4975451-demarrez-votre-projet-avec-java | 15 hours | Facile | / | 0 | 1/4)
 Algorithmie | [Découvrez le fonctionnement des algorithmes](https://openclassrooms.com/fr/courses/4366701-decouvrez-le-fonctionnement-des-algorithmes) | 4 hours | Facile | :white_check_mark: | 0 | 3/3
 React Native | [Développez une application mobile React Native](https://openclassrooms.com/fr/courses/4902061-developpez-une-application-mobile-react-native) | 30 hours | Moyenne | _en cours_ | 0/1 | /
 JavaScript | [Apprenez à coder avec JavaScript](https://openclassrooms.com/fr/courses/2984401-apprenez-a-coder-avec-javascript) | 20 hours | Facile | :white_check_mark: | 2/2 | /
