@@ -152,13 +152,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.OrderTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ocr.anthony.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.ocr.boris.Main" />
       <module name="MyMenu" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ocr.anthony.*" />
+          <option name="PATTERN" value="com.ocr.boris.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,12 +170,12 @@
       <module name="MyMenu" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ocr.anthony.*" />
+          <option name="PATTERN" value="com.ocr.boris.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ocr.anthony" />
-      <option name="MAIN_CLASS_NAME" value="com.ocr.anthony.OrderTest" />
+      <option name="PACKAGE_NAME" value="com.ocr.boris" />
+      <option name="MAIN_CLASS_NAME" value="com.ocr.boris.OrderTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -185,12 +185,12 @@
       <module name="MyMenu" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ocr.anthony.*" />
+          <option name="PATTERN" value="com.ocr.boris.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ocr.anthony" />
-      <option name="MAIN_CLASS_NAME" value="com.ocr.anthony.OrderTest" />
+      <option name="PACKAGE_NAME" value="com.ocr.boris" />
+      <option name="MAIN_CLASS_NAME" value="com.ocr.boris.OrderTest" />
       <option name="METHOD_NAME" value="Given_ChikenInStandardInput_When_MenuIsRun_Then_DisplayCorrectProcess" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -201,12 +201,12 @@
       <module name="MyMenu" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ocr.anthony.*" />
+          <option name="PATTERN" value="com.ocr.boris.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ocr.anthony" />
-      <option name="MAIN_CLASS_NAME" value="com.ocr.anthony.OrderTest" />
+      <option name="PACKAGE_NAME" value="com.ocr.boris" />
+      <option name="MAIN_CLASS_NAME" value="com.ocr.boris.OrderTest" />
       <option name="METHOD_NAME" value="Given_Nothing_When_DisplayMenuSelection_Then_ShouldDisplayText" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -215,8 +215,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OrderTest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.OrderTest" />
         <item itemvalue="JUnit.OrderTest.Given_ChikenInStandardInput_When_MenuIsRun_Then_DisplayCorrectProcess" />
         <item itemvalue="JUnit.OrderTest.Given_Nothing_When_DisplayMenuSelection_Then_ShouldDisplayText" />
       </list>

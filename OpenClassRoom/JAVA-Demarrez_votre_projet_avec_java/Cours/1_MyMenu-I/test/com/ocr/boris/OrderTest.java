@@ -1,4 +1,4 @@
-package com.ocr.anthony;
+package com.ocr.boris;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.AfterEach;
