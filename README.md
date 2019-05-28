@@ -1,5 +1,5 @@
 # Mooc_Tutorial :construction_worker:
-Code from practical work from differents online MOOCs or tutorials I followed (youtube, etc...)
+Code from practical work from differents online MOOCs or tutorials I followed (website, youtube, etc...)
 
 **Including solutions for the certificates**
 <br><br>
@@ -10,7 +10,7 @@ _all remarks are welcomes_
 
 
 
-:necktie: List of sites for which I have uploaded the exercise correction (_more to come_) :
+:necktie: List of sites for which I have uploaded the exercises corrections (_more to come_) :
 - A : **Open Class Room** : :arrow_lower_right: [Click here to jump at the end of the page](#open-class-room)
 
 
