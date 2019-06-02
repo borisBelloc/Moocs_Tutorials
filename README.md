@@ -67,7 +67,7 @@ _Tous les quizz/activités ne sont pas encore uploadé_
 
 Techno | Cours/url | Durée estimé | difficulté | terminé? | Activités | Quizz
 --- |--- |--- |--- |--- |--- |--- |
-JAVA | [Démarrez votre projet avec Java](https://openclassrooms.com/fr/courses/4975451-demarrez-votre-projet-avec-java) | 15 hours | Facile | _en cours_ | 0 | 1/4
+JAVA | [Démarrez votre projet avec Java](https://openclassrooms.com/fr/courses/4975451-demarrez-votre-projet-avec-java) | 15 hours | Facile | _en cours_ | 0 | 2/4
 Algorithmie | [Découvrez le fonctionnement des algorithmes](https://openclassrooms.com/fr/courses/4366701-decouvrez-le-fonctionnement-des-algorithmes) | 4 hours | Facile | :white_check_mark: | 0 | 3/3
 React Native | [Développez une application mobile React Native](https://openclassrooms.com/fr/courses/4902061-developpez-une-application-mobile-react-native) | 30 hours | Moyenne | _en pause_ | 0/1 | 2/4
 JavaScript | [Apprenez à coder avec JavaScript](https://openclassrooms.com/fr/courses/2984401-apprenez-a-coder-avec-javascript) | 20 hours | Facile | :white_check_mark: | 2/2 | 1/1
