@@ -3,7 +3,6 @@ package com.ocr.boris;
 import java.util.Scanner;
 
 public class Order {
-    Scanner sc = new Scanner(System.in);
 
     /**
      * Display all available menus in the restaurant.
@@ -44,37 +43,15 @@ public class Order {
             this.displaySelectedMenu(nbMenu);
             switch (nbMenu) {
                 case 1:
-                    displayAvailableSide(true);
-                    int nbSide;
-                    do {
-                        nbSide = sc.nextInt();
-                        displaySelectedSide(nbSide, true);
-                    } while (nbSide < 1 || nbSide > 3);
-                    displayAvailableDrink();
-                    int nbDrink;
-                    do {
-                        nbDrink = sc.nextInt();
-                        displaySelectedDrink(nbDrink);
-                    } while (nbDrink < 1 || nbDrink > 3);
+                    askSide(true);
+                    askDrink();
                     break;
                 case 2:
-                    displayAvailableSide(true);
-                    do {
-                        nbSide = sc.nextInt();
-                        displaySelectedSide(nbSide, true);
-                    } while (nbSide < 1 || nbSide > 3);
+                    askSide(true);
                     break;
                 case 3:
-                    displayAvailableSide(false);
-                    do {
-                        nbSide = sc.nextInt();
-                        displaySelectedSide(nbSide, false);
-                    } while (nbSide < 1 || nbSide > 2);
-                    displayAvailableDrink();
-                    do {
-                        nbDrink = sc.nextInt();
-                        displaySelectedDrink(nbDrink);
-                    } while (nbDrink < 1 || nbDrink > 3);
+                    askSide(false);
+                    askDrink();
                     break;
             }
         } while (nbMenu < 1 || nbMenu > 3);
@@ -89,8 +66,6 @@ public class Order {
         for (int i = 0; i < menuQuantity; i++) {
             this.runMenu();
         }
-
-
     }
 
     /**
@@ -102,7 +77,6 @@ public class Order {
      * @param allSidesEnable enable display for all side or not
      */
     public void displaySelectedSide(int nbSide, boolean allSidesEnable) {
-
         if (allSidesEnable) {
             switch (nbSide) {
                 case 1:
@@ -129,7 +103,6 @@ public class Order {
                 default:
                     System.out.println("Vous n'avez pas choisi d'accompagnement parmi les choix proposés");
                     break;
-
             }
         }
     }
@@ -185,6 +158,35 @@ public class Order {
         System.out.println("2 - eau gazeuse");
         System.out.println("3 - soda");
         System.out.println("Que souhaitez-vous comme boisson ?");
+    }
+
+
+    /**
+     * Display a question about menus in the standard input, get response and display it
+     */
+    public void askMenu() {
+        String[] menus = {"poulet", "boeuf", "végétarien"};
+        askSomething("menu", menus);
+    }
+
+    /**
+     * Display a question about menus in the standard input, get response and display it
+     *
+     * @param allSidesEnabled all Sides enabled or not
+     */
+    public void askSide(boolean allSidesEnabled) {
+        if (allSidesEnabled) {
+            String[] sides = {"légumes frais", "frites", "riz"};
+            askSomething("accompagnement", sides);
+        }
+    }
+
+    /**
+     * Display a question about menus in the standard input, get response and display it
+     */
+    public void askDrink() {
+        String[] drinks = {"eau plate", "eau gazeuse", "soda"};
+        askSomething("boisson", drinks);
     }
 }
 

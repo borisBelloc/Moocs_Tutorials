@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25cc44de-e11d-478b-bb05-329e8828b49e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ocr/boris/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/boris/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/ocr/boris/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/boris/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/com/ocr/boris/OrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/ocr/boris/OrderTest.java" afterDir="false" />
     </list>
@@ -17,26 +19,23 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5433369">
+    <splitter split-orientation="horizontal" split-proportion="0.634222">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/test/com/ocr/boris/OrderTest.java">
+            <entry file="file://$PROJECT_DIR$/src/com/ocr/boris/Order.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1360">
-                  <caret line="98" column="33" selection-start-line="98" selection-start-column="14" selection-end-line="98" selection-end-column="33" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
+                <state relative-caret-position="85">
+                  <caret line="5" selection-start-line="5" selection-end-line="5" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/com/ocr/boris/Order.java">
+            <entry file="file://$PROJECT_DIR$/src/com/ocr/boris/Interaction.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="394">
-                  <caret line="65" column="26" lean-forward="true" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
+                <state relative-caret-position="136">
+                  <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
                 </state>
               </provider>
             </entry>
@@ -44,8 +43,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/com/ocr/boris/Main.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+                <state relative-caret-position="119">
+                  <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
                 </state>
               </provider>
             </entry>
@@ -57,8 +56,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/com/ocr/boris/OrderTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3451">
-                  <caret line="207" selection-start-line="207" selection-end-line="207" />
+                <state relative-caret-position="3281">
+                  <caret line="260" column="9" lean-forward="true" selection-start-line="260" selection-start-column="9" selection-end-line="260" selection-end-column="9" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -70,10 +69,18 @@
       </split-second>
     </splitter>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Given_ChikenInStandardInput_When_MenuIsRun_Then_DisplayCorrectProcess</find>
       <find>\r\n</find>
+      <find>displayAvailableMenu</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -85,9 +92,11 @@
         <option value="$PROJECT_DIR$/src/com/ocr/anthony/Main.java" />
         <option value="$PROJECT_DIR$/test/com/ocr/anthony/OrderTest.java" />
         <option value="$PROJECT_DIR$/src/com/ocr/anthony/Order.java" />
-        <option value="$PROJECT_DIR$/src/com/ocr/boris/Main.java" />
         <option value="$PROJECT_DIR$/test/com/ocr/boris/OrderTest.java" />
         <option value="$PROJECT_DIR$/src/com/ocr/boris/Order.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/boris/interaction.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/boris/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/boris/Interaction.java" />
       </list>
     </option>
   </component>
@@ -103,8 +112,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -123,21 +130,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="boris" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="1_MyMenu-I" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1_MyMenu-I" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1_MyMenu-I" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1_MyMenu-I" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="boris" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -177,7 +175,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderTest.Given_BadMenu_When_MenuIsRun_Then_ReAskMenu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderTest.Given_BadResponseAndResponse1_When_AskAboutCarWithThreeResponses_Then_DisplayErrorAndGoodResponse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyMenu" />
       <extension name="coverage">
         <pattern>
@@ -187,13 +185,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.ocr.boris" />
       <option name="MAIN_CLASS_NAME" value="com.ocr.boris.OrderTest" />
-      <option name="METHOD_NAME" value="Given_BadMenu_When_MenuIsRun_Then_ReAskMenu" />
+      <option name="METHOD_NAME" value="Given_BadResponseAndResponse1_When_AskAboutCarWithThreeResponses_Then_DisplayErrorAndGoodResponse" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderTest.Given_BeefWithBadSide_When_MenuIsRun_Then_ReAskSideAndDrink" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderTest.Given_Chiken_When_AskAboutMenus_Then_DisplayChikenChoice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyMenu" />
       <extension name="coverage">
         <pattern>
@@ -203,13 +201,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.ocr.boris" />
       <option name="MAIN_CLASS_NAME" value="com.ocr.boris.OrderTest" />
-      <option name="METHOD_NAME" value="Given_BeefWithBadSide_When_MenuIsRun_Then_ReAskSideAndDrink" />
+      <option name="METHOD_NAME" value="Given_Chiken_When_AskAboutMenus_Then_DisplayChikenChoice" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderTest.Given_ChikenWithBadSideAndBadDrink_When_MenuIsRun_Then_ReAskSideAndDrink" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderTest.Given_FriesWithAllSidesEnabled_When_AskAboutSides_Then_DisplayFriesChoice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyMenu" />
       <extension name="coverage">
         <pattern>
@@ -219,13 +217,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.ocr.boris" />
       <option name="MAIN_CLASS_NAME" value="com.ocr.boris.OrderTest" />
-      <option name="METHOD_NAME" value="Given_ChikenWithBadSideAndBadDrink_When_MenuIsRun_Then_ReAskSideAndDrink" />
+      <option name="METHOD_NAME" value="Given_FriesWithAllSidesEnabled_When_AskAboutSides_Then_DisplayFriesChoice" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderTest.Given_VegetarianWithBadSideAndBadDrink_When_MenuIsRun_Then_ReAskSideAndDrink" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderTest.Given_Water_When_AskAboutDrinks_Then_DisplayWaterChoice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyMenu" />
       <extension name="coverage">
         <pattern>
@@ -235,7 +233,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.ocr.boris" />
       <option name="MAIN_CLASS_NAME" value="com.ocr.boris.OrderTest" />
-      <option name="METHOD_NAME" value="Given_VegetarianWithBadSideAndBadDrink_When_MenuIsRun_Then_ReAskSideAndDrink" />
+      <option name="METHOD_NAME" value="Given_Water_When_AskAboutDrinks_Then_DisplayWaterChoice" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -244,10 +242,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.OrderTest" />
-        <item itemvalue="JUnit.OrderTest.Given_VegetarianWithBadSideAndBadDrink_When_MenuIsRun_Then_ReAskSideAndDrink" />
-        <item itemvalue="JUnit.OrderTest.Given_BeefWithBadSide_When_MenuIsRun_Then_ReAskSideAndDrink" />
-        <item itemvalue="JUnit.OrderTest.Given_ChikenWithBadSideAndBadDrink_When_MenuIsRun_Then_ReAskSideAndDrink" />
-        <item itemvalue="JUnit.OrderTest.Given_BadMenu_When_MenuIsRun_Then_ReAskMenu" />
+        <item itemvalue="JUnit.OrderTest.Given_Water_When_AskAboutDrinks_Then_DisplayWaterChoice" />
+        <item itemvalue="JUnit.OrderTest.Given_FriesWithAllSidesEnabled_When_AskAboutSides_Then_DisplayFriesChoice" />
+        <item itemvalue="JUnit.OrderTest.Given_Chiken_When_AskAboutMenus_Then_DisplayChikenChoice" />
+        <item itemvalue="JUnit.OrderTest.Given_BadResponseAndResponse1_When_AskAboutCarWithThreeResponses_Then_DisplayErrorAndGoodResponse" />
       </list>
     </recent_temporary>
   </component>
@@ -265,34 +263,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OrderTest_Given_BadMenu_When_MenuIsRun_Then_ReAskMenu - 2019.05.22 at 18h 46m 48s.xml">
-      <configuration name="OrderTest.Given_BadMenu_When_MenuIsRun_Then_ReAskMenu" configurationId="JUnit" />
+    <history-entry file="OrderTest_Given_BadResponseAndResponse1_When_AskAboutCarWithThreeResponses_Then_DisplayErrorAndGoodResponse - 2019.06.02 at 19h 07m 24s.xml">
+      <configuration name="OrderTest.Given_BadResponseAndResponse1_When_AskAboutCarWithThreeResponses_Then_DisplayErrorAndGoodResponse" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OrderTest_Given_BadMenu_When_MenuIsRun_Then_ReAskMenu - 2019.05.22 at 20h 07m 21s.xml">
-      <configuration name="OrderTest.Given_BadMenu_When_MenuIsRun_Then_ReAskMenu" configurationId="JUnit" />
+    <history-entry file="OrderTest_Given_Chiken_When_AskAboutMenus_Then_DisplayChikenChoice - 2019.06.02 at 19h 09m 43s.xml">
+      <configuration name="OrderTest.Given_Chiken_When_AskAboutMenus_Then_DisplayChikenChoice" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OrderTest_Given_ChikenWithBadSideAndBadDrink_When_MenuIsRun_Then_ReAskSideAndDrink - 2019.05.22 at 20h 07m 42s.xml">
-      <configuration name="OrderTest.Given_ChikenWithBadSideAndBadDrink_When_MenuIsRun_Then_ReAskSideAndDrink" configurationId="JUnit" />
+    <history-entry file="OrderTest_Given_FriesWithAllSidesEnabled_When_AskAboutSides_Then_DisplayFriesChoice - 2019.06.02 at 19h 09m 48s.xml">
+      <configuration name="OrderTest.Given_FriesWithAllSidesEnabled_When_AskAboutSides_Then_DisplayFriesChoice" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OrderTest_Given_BeefWithBadSide_When_MenuIsRun_Then_ReAskSideAndDrink - 2019.05.22 at 20h 07m 46s.xml">
-      <configuration name="OrderTest.Given_BeefWithBadSide_When_MenuIsRun_Then_ReAskSideAndDrink" configurationId="JUnit" />
+    <history-entry file="OrderTest_Given_Water_When_AskAboutDrinks_Then_DisplayWaterChoice - 2019.06.02 at 19h 09m 53s.xml">
+      <configuration name="OrderTest.Given_Water_When_AskAboutDrinks_Then_DisplayWaterChoice" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OrderTest_Given_VegetarianWithBadSideAndBadDrink_When_MenuIsRun_Then_ReAskSideAndDrink - 2019.05.22 at 20h 07m 49s.xml">
-      <configuration name="OrderTest.Given_VegetarianWithBadSideAndBadDrink_When_MenuIsRun_Then_ReAskSideAndDrink" configurationId="JUnit" />
+    <history-entry file="OrderTest_Given_Chiken_When_AskAboutMenus_Then_DisplayChikenChoice - 2019.06.02 at 20h 02m 56s.xml">
+      <configuration name="OrderTest.Given_Chiken_When_AskAboutMenus_Then_DisplayChikenChoice" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OrderTest - 2019.05.22 at 20h 15m 07s.xml">
-      <configuration name="OrderTest" configurationId="JUnit" />
+    <history-entry file="OrderTest_Given_FriesWithAllSidesEnabled_When_AskAboutSides_Then_DisplayFriesChoice - 2019.06.02 at 20h 03m 01s.xml">
+      <configuration name="OrderTest.Given_FriesWithAllSidesEnabled_When_AskAboutSides_Then_DisplayFriesChoice" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OrderTest - 2019.05.22 at 20h 15m 16s.xml">
-      <configuration name="OrderTest" configurationId="JUnit" />
+    <history-entry file="OrderTest_Given_FriesWithAllSidesEnabled_When_AskAboutSides_Then_DisplayFriesChoice - 2019.06.02 at 20h 03m 19s.xml">
+      <configuration name="OrderTest.Given_FriesWithAllSidesEnabled_When_AskAboutSides_Then_DisplayFriesChoice" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OrderTest - 2019.05.22 at 20h 16m 37s.xml">
-      <configuration name="OrderTest" configurationId="JUnit" />
+    <history-entry file="OrderTest_Given_Water_When_AskAboutDrinks_Then_DisplayWaterChoice - 2019.06.02 at 20h 03m 25s.xml">
+      <configuration name="OrderTest.Given_Water_When_AskAboutDrinks_Then_DisplayWaterChoice" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OrderTest - 2019.05.22 at 20h 17m 15s.xml">
-      <configuration name="OrderTest" configurationId="JUnit" />
+    <history-entry file="OrderTest_Given_Water_When_AskAboutDrinks_Then_DisplayWaterChoice - 2019.06.02 at 20h 06m 23s.xml">
+      <configuration name="OrderTest.Given_Water_When_AskAboutDrinks_Then_DisplayWaterChoice" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="OrderTest - 2019.05.22 at 20h 17m 56s.xml">
+    <history-entry file="OrderTest - 2019.06.02 at 20h 06m 30s.xml">
       <configuration name="OrderTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -307,8 +305,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.015991472" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1401919" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -317,7 +316,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -364,42 +363,40 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout-to-restore>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/test/com/ocr/boris/OrderTest.java</url>
-          <line>174</line>
-          <properties class="com.ocr.boris.OrderTest" method="Given_OneMenuChikenWithFriesAndWaterInStandardInput_When_MenusIsRun_Then_DisplayCorrectProcess">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/ocr/boris/Main.java">
+    <entry file="file://$PROJECT_DIR$/test/com/ocr/boris/OrderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="3281">
+          <caret line="260" column="9" lean-forward="true" selection-start-line="260" selection-start-column="9" selection-end-line="260" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ocr/boris/Order.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="65" column="26" lean-forward="true" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/ocr/boris/OrderTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/boris/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3451">
-          <caret line="207" selection-start-line="207" selection-end-line="207" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/boris/Interaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
         </state>
       </provider>
     </entry>
