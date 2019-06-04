@@ -70,7 +70,7 @@ Techno | Cours/url | Durée estimé | difficulté | terminé? | Activités | Qui
 JAVA | [Démarrez votre projet avec Java](https://openclassrooms.com/fr/courses/4975451-demarrez-votre-projet-avec-java) | 15 hours | Facile | _en cours_ | 0 | 2/4
 React Native | [Développez une application mobile React Native](https://openclassrooms.com/fr/courses/4902061-developpez-une-application-mobile-react-native) | 30 hours | Moyenne | _en pause_ | 0/1 | 2/4
 API REST (IBM) | [Utilisez des API REST dans vos projets web](https://openclassrooms.com/fr/courses/3449001-utilisez-des-api-rest-dans-vos-projets-web) | 6 hours | Facile | :white_check_mark: 2018/10/18 | 1/1 | 2/2
-Culture | [Comprendre le Web](https://openclassrooms.com/fr/courses/1946386-comprendre-le-web) | Facile | 6 hours | 1/1 | 4/4
+Culture | [Comprendre le Web](https://openclassrooms.com/fr/courses/1946386-comprendre-le-web) | Facile | 6 hours | :white_check_mark: 2018/10/11 | 1/1 | 4/4
 JavaScript | [Apprenez à coder avec JavaScript](https://openclassrooms.com/fr/courses/2984401-apprenez-a-coder-avec-javascript) | 20 hours | Facile | :white_check_mark: 2019/03/14 | 2/2 | 1/1
 Algorithmie | [Découvrez le fonctionnement des algorithmes](https://openclassrooms.com/fr/courses/4366701-decouvrez-le-fonctionnement-des-algorithmes) | 4 hours | Facile | :white_check_mark: 2019/05/08 | 0 | 3/3
 Algorithmie | [Algorithmique pour l'apprenti programmeur](https://openclassrooms.com/fr/courses/1467201-algorithmique-pour-lapprenti-programmeur) | / | Facile |  _en cours_ | 0/0 | 0/0
