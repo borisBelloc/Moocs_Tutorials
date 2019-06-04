@@ -74,8 +74,11 @@ JavaScript | [Apprenez à coder avec JavaScript](https://openclassrooms.com/fr/c
 Bootstrap 4 | [Prenez en main Bootstrap](https://openclassrooms.com/fr/courses/1885491-prenez-en-main-bootstrap) | 10 hours | Moyenne | non | 0/2 | 0/1 
 Django/Python | [Développez votre site web avec le framework Django](https://openclassrooms.com/fr/courses/1871271-developpez-votre-site-web-avec-le-framework-django) | 40 hours | Moyenne | non | 0/2 | 2/4
 Django/Python | [Découvrez le framework Django](https://openclassrooms.com/fr/courses/4425076-decouvrez-le-framework-django) | 20 hours | Moyenne | :white_check_mark: | 1/1 | 5/5
-Git | [Gérez votre code avec Git et GitHub](https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github) | 6 hours | Facile | :white_check_mark: 2018/06/24 | / | 3/3 |
-API REST (IBM) | [Utilisez des API REST dans vos projets web](https://openclassrooms.com/fr/courses/3449001-utilisez-des-api-rest-dans-vos-projets-web) | 6 hours | Facile | :white_check_mark: | 1/1 | 
+API REST (IBM) | [Utilisez des API REST dans vos projets web](https://openclassrooms.com/fr/courses/3449001-utilisez-des-api-rest-dans-vos-projets-web) | 6 hours | Facile | :white_check_mark: 2018/10/18 | 1/1 | 2/2
+Git | [Gérez votre code avec Git et GitHub](https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github) | 6 hours | Facile | :white_check_mark: 2018/06/24 | / | 3/3
+HTML5 & CSS3 | [Apprenez à créer votre site web avec HTML5 et CSS3](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1604192-decouvrez-le-fonctionnement-des-sites-web) | 20 hours | Facile | _à finir_ | 0/4 | 1/4 
+Python | [Apprenez à programmer en Python](https://openclassrooms.com/fr/courses/235344-apprenez-a-programmer-en-python) | 40 hours | Difficile | non | 0/2 TP 0/2 | 0/2
+Python | [Démarrez votre projet avec Python](https://openclassrooms.com/fr/courses/4262331-demarrez-votre-projet-avec-python) | 4 hours | Facile | :white_check_mark: 2018/06/22 | 0/0 | 3/3
 
 _/ == Plus disponible_
 
