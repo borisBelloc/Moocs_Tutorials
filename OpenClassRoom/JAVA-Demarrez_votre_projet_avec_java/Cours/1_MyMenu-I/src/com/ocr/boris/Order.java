@@ -207,7 +207,6 @@ public class Order {
 
     /**
      * Display a question about menus in the standard input, get response and display it
-     *
      * @param allSidesEnabled all Sides enabled or not
      */
     public void askSide(boolean allSidesEnabled) {
