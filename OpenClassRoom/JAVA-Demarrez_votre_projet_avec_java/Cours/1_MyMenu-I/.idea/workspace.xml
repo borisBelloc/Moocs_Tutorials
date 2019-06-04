@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25cc44de-e11d-478b-bb05-329e8828b49e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/ocr/boris/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ocr/boris/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/ocr/boris/OrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/ocr/boris/OrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,16 +20,19 @@
     <splitter split-orientation="horizontal" split-proportion="0.50827426">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/com/ocr/boris/Order.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="487">
-                  <caret line="208" column="88" selection-start-line="208" selection-start-column="88" selection-end-line="208" selection-end-column="88" />
+                <state relative-caret-position="435">
+                  <caret line="197" column="26" selection-start-line="197" selection-start-column="26" selection-end-line="197" selection-end-column="26" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/com/ocr/boris/Main.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="85">
@@ -44,8 +48,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/com/ocr/boris/OrderTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="351">
-                  <caret line="306" column="9" selection-start-line="306" selection-start-column="9" selection-end-line="306" selection-end-column="9" />
+                <state relative-caret-position="5542">
+                  <caret line="330" column="29" selection-start-line="330" selection-start-column="29" selection-end-line="330" selection-end-column="29" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -71,6 +75,7 @@
       <find>displayAvailableMenu</find>
       <find>runmenu</find>
       <find>orderSummary</find>
+      <find>catc</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -178,7 +183,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderTest.Given_Chiken_When_AskAboutMenus_Then_Return1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderTest.Given_BadMenusQuantityInStandardInput_When_MenusIsRun_Then_DisplayErrorSentence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyMenu" />
       <extension name="coverage">
         <pattern>
@@ -188,7 +193,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.ocr.boris" />
       <option name="MAIN_CLASS_NAME" value="com.ocr.boris.OrderTest" />
-      <option name="METHOD_NAME" value="Given_Chiken_When_AskAboutMenus_Then_Return1" />
+      <option name="METHOD_NAME" value="Given_BadMenusQuantityInStandardInput_When_MenusIsRun_Then_DisplayErrorSentence" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -210,7 +215,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderTest.Given_Responses_When_CallingRunMenus_Then_FillOrderSummaryCorrectly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderTest.Given_TextResponse_When_CallingAskQuestion_Then_DisplayErrorSentence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyMenu" />
       <extension name="coverage">
         <pattern>
@@ -220,7 +225,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.ocr.boris" />
       <option name="MAIN_CLASS_NAME" value="com.ocr.boris.OrderTest" />
-      <option name="METHOD_NAME" value="Given_Responses_When_CallingRunMenus_Then_FillOrderSummaryCorrectly" />
+      <option name="METHOD_NAME" value="Given_TextResponse_When_CallingAskQuestion_Then_DisplayErrorSentence" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -229,10 +234,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.OrderTest.Given_Response_When_CallingAskQuestion_Then_FillOrderSummaryCorrectly" />
-        <item itemvalue="JUnit.OrderTest.Given_Responses_When_CallingRunMenus_Then_FillOrderSummaryCorrectly" />
-        <item itemvalue="JUnit.OrderTest.Given_Chiken_When_AskAboutMenus_Then_Return1" />
         <item itemvalue="JUnit.OrderTest" />
+        <item itemvalue="JUnit.OrderTest.Given_BadMenusQuantityInStandardInput_When_MenusIsRun_Then_DisplayErrorSentence" />
+        <item itemvalue="JUnit.OrderTest.Given_TextResponse_When_CallingAskQuestion_Then_DisplayErrorSentence" />
+        <item itemvalue="JUnit.OrderTest.Given_Response_When_CallingAskQuestion_Then_FillOrderSummaryCorrectly" />
       </list>
     </recent_temporary>
   </component>
@@ -250,21 +255,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OrderTest_Given_Chiken_When_AskAboutMenus_Then_Return1 - 2019.06.03 at 12h 16m 58s.xml">
-      <configuration name="OrderTest.Given_Chiken_When_AskAboutMenus_Then_Return1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderTest_Given_Chiken_When_AskAboutMenus_Then_Return1 - 2019.06.03 at 12h 17m 09s.xml">
-      <configuration name="OrderTest.Given_Chiken_When_AskAboutMenus_Then_Return1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderTest_Given_Responses_When_CallingRunMenus_Then_FillOrderSummaryCorrectly - 2019.06.03 at 12h 17m 18s.xml">
-      <configuration name="OrderTest.Given_Responses_When_CallingRunMenus_Then_FillOrderSummaryCorrectly" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderTest_Given_Responses_When_CallingRunMenus_Then_FillOrderSummaryCorrectly - 2019.06.03 at 12h 23m 41s.xml">
-      <configuration name="OrderTest.Given_Responses_When_CallingRunMenus_Then_FillOrderSummaryCorrectly" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OrderTest_Given_Responses_When_CallingRunMenus_Then_FillOrderSummaryCorrectly - 2019.06.03 at 12h 24m 16s.xml">
-      <configuration name="OrderTest.Given_Responses_When_CallingRunMenus_Then_FillOrderSummaryCorrectly" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="OrderTest_Given_Responses_When_CallingRunMenus_Then_FillOrderSummaryCorrectly - 2019.06.03 at 12h 24m 29s.xml">
       <configuration name="OrderTest.Given_Responses_When_CallingRunMenus_Then_FillOrderSummaryCorrectly" configurationId="JUnit" />
     </history-entry>
@@ -280,6 +270,21 @@
     <history-entry file="OrderTest_Given_Response_When_CallingAskQuestion_Then_FillOrderSummaryCorrectly - 2019.06.03 at 12h 34m 00s.xml">
       <configuration name="OrderTest.Given_Response_When_CallingAskQuestion_Then_FillOrderSummaryCorrectly" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="OrderTest - 2019.06.04 at 10h 55m 04s.xml">
+      <configuration name="OrderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderTest_Given_TextResponse_When_CallingAskQuestion_Then_DisplayErrorSentence - 2019.06.04 at 10h 58m 59s.xml">
+      <configuration name="OrderTest.Given_TextResponse_When_CallingAskQuestion_Then_DisplayErrorSentence" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderTest_Given_BadMenusQuantityInStandardInput_When_MenusIsRun_Then_DisplayErrorSentence - 2019.06.04 at 10h 59m 02s.xml">
+      <configuration name="OrderTest.Given_BadMenusQuantityInStandardInput_When_MenusIsRun_Then_DisplayErrorSentence" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderTest - 2019.06.04 at 11h 35m 09s.xml">
+      <configuration name="OrderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderTest - 2019.06.04 at 11h 36m 54s.xml">
+      <configuration name="OrderTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -292,9 +297,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10127932" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12313433" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -357,10 +361,23 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/ocr/boris/Interaction.java" />
+    <entry file="file://$PROJECT_DIR$/test/com/ocr/boris/OrderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5542">
+          <caret line="330" column="29" selection-start-line="330" selection-start-column="29" selection-end-line="330" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ocr/boris/Order.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="208" column="88" selection-start-line="208" selection-start-column="88" selection-end-line="208" selection-end-column="88" />
+        <state relative-caret-position="435">
+          <caret line="197" column="26" selection-start-line="197" selection-start-column="26" selection-end-line="197" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -368,16 +385,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/ocr/boris/OrderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="306" column="9" selection-start-line="306" selection-start-column="9" selection-end-line="306" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

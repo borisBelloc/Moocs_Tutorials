@@ -1,5 +1,6 @@
 package com.ocr.boris;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Order {
@@ -60,7 +61,19 @@ public class Order {
     public void runMenus() {
         System.out.println("Combien souhaitez vous commander de menu ?");
         orderSummary = "Résumé de votre commande :%n";
-        int menuQuantity = sc.nextInt();
+        boolean responseIsGood;
+        int menuQuantity = 0;
+        do {
+            try {
+                menuQuantity = sc.nextInt();
+                responseIsGood = true;
+            } catch (InputMismatchException e) {
+                // Après une erreur, on vide le scanner afin de pouvoir surveiller le prochain int saisie
+                sc.next();
+                System.out.println("Vous devez saisir un nombre, correspondant au nombre de menus souhaités");
+                responseIsGood = false;
+            }
+        } while (!responseIsGood);
         for (int i = 0; i < menuQuantity; i++) {
             orderSummary += "Menu " + (i + 1) + ":%n";
             this.runMenu();
@@ -174,11 +187,17 @@ public class Order {
             System.out.println(i + " - " + responses[i - 1]);
         }
         System.out.println("Que souhaitez-vous comme " + category + "?");
-        int nbResponse;
+        int nbResponse = 0;
         boolean responseIsGood;
         do {
-            nbResponse = sc.nextInt();
-            responseIsGood = (nbResponse >= 1 && nbResponse <= responses.length);
+            try {
+                nbResponse = sc.nextInt();
+                responseIsGood = (nbResponse >= 1 && nbResponse <= responses.length);
+            } catch (InputMismatchException e) {
+                // Après une erreur, on vide le scanner afin de pouvoir surveiller le prochain int saisie
+                sc.next();
+                responseIsGood = false;
+            }
             if (responseIsGood) {
                 String choice = "Vous avez choisi comme " + category + " : " + responses[nbResponse - 1];
                 System.out.println(choice);
@@ -207,6 +226,7 @@ public class Order {
 
     /**
      * Display a question about menus in the standard input, get response and display it
+     *
      * @param allSidesEnabled all Sides enabled or not
      */
     public void askSide(boolean allSidesEnabled) {
