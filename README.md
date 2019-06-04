@@ -79,6 +79,7 @@ Git | [Gérez votre code avec Git et GitHub](https://openclassrooms.com/fr/cours
 Django/Python | [Découvrez le framework Django](https://openclassrooms.com/fr/courses/4425076-decouvrez-le-framework-django) | 20 hours | Moyenne | :white_check_mark: | 1/1 | 5/5
 Django/Python | [Développez votre site web avec le framework Django](https://openclassrooms.com/fr/courses/1871271-developpez-votre-site-web-avec-le-framework-django) | 40 hours | Moyenne | non | 0/2 | 2/4
 Algorithmie | [L'algorithme min-max](https://openclassrooms.com/fr/courses/1202501-lalgorithme-min-max) | / | Facile | :white_check_mark: 2018/05/12 | 0/0 | 0/0
+Culture | [Apprenez à apprendre](https://openclassrooms.com/fr/courses/4312781-apprenez-a-apprendre) | 6 hours | Facile | non | 0/1 | 2/3
 Linux | [Reprenez le contrôle à l'aide de Linux !](https://openclassrooms.com/fr/courses/43538-reprenez-le-controle-a-laide-de-linux) | 30 hours | Facile | _à finir, <br> 85% fait_ | 0/1 | 4/5
 HTML5 & CSS3 | [Apprenez à créer votre site web avec HTML5 et CSS3](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1604192-decouvrez-le-fonctionnement-des-sites-web) | 20 hours | Facile | _à finir_ | 0/4 | 1/4 
 Python | [Apprenez à programmer en Python](https://openclassrooms.com/fr/courses/235344-apprenez-a-programmer-en-python) | 40 hours | Difficile | non | 0/2 TP 0/2 | 0/2
