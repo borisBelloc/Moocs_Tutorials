@@ -1,7 +1,14 @@
 package com.ocr.boris;
 
+import java.io.IOException;
+
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.InputMismatchException;
 import java.util.Scanner;
+
+import static java.nio.file.StandardOpenOption.APPEND;
 
 public class Order {
     Scanner sc = new Scanner(System.in);
@@ -38,31 +45,34 @@ public class Order {
     /**
      * Run asking process for a menu.
      */
-    public void runMenu() {
+    public String runMenu() {
         int nbMenu = askMenu();
+        int nbSide = -1;
+        int nbDrink = -1;
         switch (nbMenu) {
             case 1:
-                askSide(true);
-                askDrink();
+                nbSide = askSide(true);
+                nbDrink = askDrink();
                 break;
             case 2:
-                askSide(true);
+                nbSide = askSide(true);
                 break;
             case 3:
-                askSide(false);
-                askDrink();
+                nbSide = askSide(false);
+                nbDrink = askDrink();
                 break;
         }
+        return nbMenu + "," + nbSide + "," + nbDrink + "%n";
     }
 
     /**
      * Run asking process for several menus
      */
     public void runMenus() {
+        Path orderPath = Paths.get("order.csv");
         System.out.println("Combien souhaitez vous commander de menu ?");
-        orderSummary = "Résumé de votre commande :%n";
+        int menuQuantity = -1;
         boolean responseIsGood;
-        int menuQuantity = 0;
         do {
             try {
                 menuQuantity = sc.nextInt();
@@ -76,7 +86,17 @@ public class Order {
         } while (!responseIsGood);
         for (int i = 0; i < menuQuantity; i++) {
             orderSummary += "Menu " + (i + 1) + ":%n";
-            this.runMenu();
+            String orderLine = this.runMenu();
+            // Par defaut, files.write del le fichier a chaque fois; APPEND evite ca
+            try {
+                Files.write(orderPath, String.format(orderLine).getBytes(), APPEND);
+            } catch (IOException e) {
+//                ligne suivante : Debug par defaut
+//                e.printStackTrace();
+                System.out.println("Une erreur est survenue. Merci de réessayer plus tard.");
+                // on ne return rien (fonction void)
+                return;
+            }
         }
         System.out.println("");
         System.out.println(String.format(orderSummary));
@@ -229,22 +249,22 @@ public class Order {
      *
      * @param allSidesEnabled all Sides enabled or not
      */
-    public void askSide(boolean allSidesEnabled) {
+    public int askSide(boolean allSidesEnabled) {
         if (allSidesEnabled) {
             String[] reponsesAllSide = {"légumes frais", "frites", "riz"};
-            askSomething("accompagnement", reponsesAllSide);
+            return askSomething("accompagnement", reponsesAllSide);
         } else {
             String[] responsesOnlyRice = {"riz", "pas de riz"};
-            askSomething("accompagnement", responsesOnlyRice);
+            return askSomething("accompagnement", responsesOnlyRice);
         }
     }
 
     /**
      * Display a question about menus in the standard input, get response and display it
      */
-    public void askDrink() {
+    public int askDrink() {
         String[] drinks = {"eau plate", "eau gazeuse", "soda"};
-        askSomething("boisson", drinks);
+        return askSomething("boisson", drinks);
     }
 }
 
