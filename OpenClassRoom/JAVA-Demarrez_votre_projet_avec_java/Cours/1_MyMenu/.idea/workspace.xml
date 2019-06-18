@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="25cc44de-e11d-478b-bb05-329e8828b49e" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.50827426">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/boris/Order.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2839">
+                  <caret line="184" column="48" lean-forward="true" selection-start-line="184" selection-start-column="48" selection-end-line="184" selection-end-column="48" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/boris/Main.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="22" selection-start-column="22" selection-end-column="22" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/boris/OrderReader.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="385">
+                  <caret line="31" column="50" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/test/com/ocr/boris/OrderTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="190">
+                  <caret line="309" column="28" selection-start-line="309" selection-start-column="28" selection-end-line="309" selection-end-column="28" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pom.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="391">
+                  <caret line="23" column="92" selection-start-line="23" selection-start-column="92" selection-end-line="23" selection-end-column="92" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Given_ChikenInStandardInput_When_MenuIsRun_Then_DisplayCorrectProcess</find>
+      <find>\r\n</find>
+      <find>displayAvailableMenu</find>
+      <find>runmenu</find>
+      <find>orderSummary</find>
+      <find>catc</find>
+      <find>runMe</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/ocr/anthony/Main.java" />
+        <option value="$PROJECT_DIR$/test/com/ocr/anthony/OrderTest.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/anthony/Order.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/boris/interaction.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/boris/Interaction.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/boris/Main.java" />
+        <option value="$PROJECT_DIR$/test/com/ocr/boris/OrderTest.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/boris/order.csv" />
+        <option value="$PROJECT_DIR$/order.csv" />
+        <option value="$PROJECT_DIR$/src/com/ocr/boris/OrderReader.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/boris/Order.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ocr/boris/ex_OrderReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ocr/boris/OrderReader.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="511" />
+    <option name="y" value="-10" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="1_MyMenu-I" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1_MyMenu-I" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1_MyMenu-I" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1_MyMenu-I" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1_MyMenu-I" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1_MyMenu-I" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1_MyMenu-I" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1_MyMenu-I" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1_MyMenu-I" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1_MyMenu-I" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="boris" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1_MyMenu-I" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1_MyMenu-I" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1_MyMenu-I" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1_MyMenu-I" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="boris" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1_MyMenu-I" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.OrderReader">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ocr.boris.Main" />
+      <module name="MyMenu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ocr.boris.OrderReader" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ocr.boris.OrderReader" />
+      <module name="MyMenu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ocr.boris.OrderReader" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyMenu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ocr.boris.OrderReader" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ocr.boris" />
+      <option name="MAIN_CLASS_NAME" value="com.ocr.boris.OrderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderTest.Given_BadMenusQuantityInStandardInput_When_MenusIsRun_Then_DisplayErrorSentence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyMenu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ocr.boris.OrderReader" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ocr.boris" />
+      <option name="MAIN_CLASS_NAME" value="com.ocr.boris.OrderTest" />
+      <option name="METHOD_NAME" value="Given_BadMenusQuantityInStandardInput_When_MenusIsRun_Then_DisplayErrorSentence" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderTest.Given_TextResponse_When_CallingAskQuestion_Then_DisplayErrorSentence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyMenu" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ocr.boris.OrderReader" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ocr.boris" />
+      <option name="MAIN_CLASS_NAME" value="com.ocr.boris.OrderTest" />
+      <option name="METHOD_NAME" value="Given_TextResponse_When_CallingAskQuestion_Then_DisplayErrorSentence" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.OrderReader" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.OrderTest" />
+        <item itemvalue="JUnit.OrderTest.Given_BadMenusQuantityInStandardInput_When_MenusIsRun_Then_DisplayErrorSentence" />
+        <item itemvalue="JUnit.OrderTest.Given_TextResponse_When_CallingAskQuestion_Then_DisplayErrorSentence" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="25cc44de-e11d-478b-bb05-329e8828b49e" name="Default Changelist" comment="" />
+      <created>1558102170144</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558102170144</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="OrderTest_Given_Responses_When_CallingRunMenus_Then_FillOrderSummaryCorrectly - 2019.06.03 at 12h 24m 29s.xml">
+      <configuration name="OrderTest.Given_Responses_When_CallingRunMenus_Then_FillOrderSummaryCorrectly" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderTest_Given_Response_When_CallingAskQuestion_Then_FillOrderSummaryCorrectly - 2019.06.03 at 12h 25m 05s.xml">
+      <configuration name="OrderTest.Given_Response_When_CallingAskQuestion_Then_FillOrderSummaryCorrectly" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderTest_Given_Response_When_CallingAskQuestion_Then_FillOrderSummaryCorrectly - 2019.06.03 at 12h 25m 24s.xml">
+      <configuration name="OrderTest.Given_Response_When_CallingAskQuestion_Then_FillOrderSummaryCorrectly" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderTest_Given_Response_When_CallingAskQuestion_Then_FillOrderSummaryCorrectly - 2019.06.03 at 12h 26m 42s.xml">
+      <configuration name="OrderTest.Given_Response_When_CallingAskQuestion_Then_FillOrderSummaryCorrectly" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderTest_Given_Response_When_CallingAskQuestion_Then_FillOrderSummaryCorrectly - 2019.06.03 at 12h 34m 00s.xml">
+      <configuration name="OrderTest.Given_Response_When_CallingAskQuestion_Then_FillOrderSummaryCorrectly" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderTest - 2019.06.04 at 10h 55m 04s.xml">
+      <configuration name="OrderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderTest_Given_TextResponse_When_CallingAskQuestion_Then_DisplayErrorSentence - 2019.06.04 at 10h 58m 59s.xml">
+      <configuration name="OrderTest.Given_TextResponse_When_CallingAskQuestion_Then_DisplayErrorSentence" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderTest_Given_BadMenusQuantityInStandardInput_When_MenusIsRun_Then_DisplayErrorSentence - 2019.06.04 at 10h 59m 02s.xml">
+      <configuration name="OrderTest.Given_BadMenusQuantityInStandardInput_When_MenusIsRun_Then_DisplayErrorSentence" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderTest - 2019.06.04 at 11h 35m 09s.xml">
+      <configuration name="OrderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderTest - 2019.06.04 at 11h 36m 54s.xml">
+      <configuration name="OrderTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1673774" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.80606717" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09808102" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.80606717" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/boris/Interaction.java" />
+    <entry file="jar://D:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/nio/file/Files.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="3490" column="23" selection-start-line="3490" selection-start-column="23" selection-end-line="3490" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/boris/order.csv" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/boris/ex_OrderReader.java" />
+    <entry file="file://$PROJECT_DIR$/order.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" selection-start-column="20" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/ocr/boris/OrderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="309" column="28" selection-start-line="309" selection-start-column="28" selection-end-line="309" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="92" selection-start-line="23" selection-start-column="92" selection-end-line="23" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/boris/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/boris/OrderReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="31" column="50" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/boris/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2839">
+          <caret line="184" column="48" lean-forward="true" selection-start-line="184" selection-start-column="48" selection-end-line="184" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
