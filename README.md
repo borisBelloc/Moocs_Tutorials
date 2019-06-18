@@ -69,7 +69,7 @@ Techno | Cours/url | Durée estimé | difficulté | terminé? | Activités | Qui
 --- |--- |--- |--- |--- |--- |--- |
 JAVA | [Organisez et packagez une application Java avec Apache Maven](https://openclassrooms.com/fr/courses/4503526-organisez-et-packagez-une-application-java-avec-apache-maven) | 15 hours | Moyenne | _futur_ | 0/1 | 0/1
 JAVA | [Apprenez l’objet avec Java](https://openclassrooms.com/fr/courses/4989236-apprenez-l-objet-avec-java) | 20 hours | Moyenne | _next_ | 0/1 | 0/4
-JAVA | [Démarrez votre projet avec Java](https://openclassrooms.com/fr/courses/4975451-demarrez-votre-projet-avec-java) | 15 hours | Facile | _en cours_ | 0 | 3/4
+JAVA | [Démarrez votre projet avec Java](https://openclassrooms.com/fr/courses/4975451-demarrez-votre-projet-avec-java) | 15 hours | Facile | :white_check_mark: 2019/06/18 | 0 | 4/4
 React Native | [Développez une application mobile React Native](https://openclassrooms.com/fr/courses/4902061-developpez-une-application-mobile-react-native) | 30 hours | Moyenne | _en pause_ | 0/1 | 2/4
 API REST (IBM) | [Utilisez des API REST dans vos projets web](https://openclassrooms.com/fr/courses/3449001-utilisez-des-api-rest-dans-vos-projets-web) | 6 hours | Facile | :white_check_mark: 2018/10/18 | 1/1 | 2/2
 Culture | [Comprendre le Web](https://openclassrooms.com/fr/courses/1946386-comprendre-le-web) | Facile | 6 hours | :white_check_mark: 2018/10/11 | 1/1 | 4/4
