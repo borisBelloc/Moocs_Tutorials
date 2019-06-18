@@ -67,6 +67,7 @@ _Tous les quizz/activités ne sont pas encore uploadé_
 
 Techno | Cours/url | Durée estimé | difficulté | terminé? | Activités | Quizz
 --- |--- |--- |--- |--- |--- |--- |
+JAVA | [Organisez et packagez une application Java avec Apache Maven](https://openclassrooms.com/fr/courses/4503526-organisez-et-packagez-une-application-java-avec-apache-maven) | 15 hours | Moyenne | _futur_ | 0/1 | 0/1
 JAVA | [Apprenez l’objet avec Java](https://openclassrooms.com/fr/courses/4989236-apprenez-l-objet-avec-java) | 20 hours | Moyenne | _next_ | 0/1 | 0/4
 JAVA | [Démarrez votre projet avec Java](https://openclassrooms.com/fr/courses/4975451-demarrez-votre-projet-avec-java) | 15 hours | Facile | _en cours_ | 0 | 3/4
 React Native | [Développez une application mobile React Native](https://openclassrooms.com/fr/courses/4902061-developpez-une-application-mobile-react-native) | 30 hours | Moyenne | _en pause_ | 0/1 | 2/4
