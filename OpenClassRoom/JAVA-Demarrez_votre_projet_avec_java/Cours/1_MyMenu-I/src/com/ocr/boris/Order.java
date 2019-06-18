@@ -164,37 +164,6 @@ public class Order {
     }
 
     /**
-     * Display all available sides depending on all sides enable or not.
-     * All sides = vegetables, frites and rice
-     * No all sides = rice or not
-     *
-     * @param allSideEnable enable display for all side or not
-     */
-    public void displayAvailableSide(boolean allSideEnable) {
-        System.out.println("Choix accompagnement");
-        if (allSideEnable) {
-            System.out.println("1 - légumes frais");
-            System.out.println("2 - frites");
-            System.out.println("3 - riz");
-        } else {
-            System.out.println("1 - riz");
-            System.out.println("2 - pas de riz");
-        }
-        System.out.println("Que souhaitez-vous comme accompagnement ?");
-    }
-
-    /**
-     * Display all available drinks in the restaurant
-     */
-    public void displayAvailableDrink() {
-        System.out.println("Choix boisson");
-        System.out.println("1 - eau plate");
-        System.out.println("2 - eau gazeuse");
-        System.out.println("3 - soda");
-        System.out.println("Que souhaitez-vous comme boisson ?");
-    }
-
-    /**
      * Display a question about a category in the standard input, get response and display it
      *
      * @param category  the category of the question
