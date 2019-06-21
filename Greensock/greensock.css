@@ -21,7 +21,7 @@ body {
   background-color: rgb(116, 135, 245);
   height: 50px;
   width: 50px;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   position: absolute;
   top:50px;
   left:300px;
