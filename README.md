@@ -11,7 +11,7 @@ _all remarks are welcomes_
 
 
 :necktie: List of sites for which I have uploaded the exercises corrections (_more to come_) :
-- A : **Open Class Room** : :arrow_lower_right: [Click here to jump at the end of the page](#open-class-room)
+- A : :fr: **Open Class Room** : :arrow_lower_right: [Click here to jump at the end of the page](#open-class-room)
 
 
 <br>
