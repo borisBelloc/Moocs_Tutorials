@@ -12,9 +12,9 @@ _all remarks are welcomes_
 
 ### :balloon: Officials tutorials from randoms technologies (framework, libraries...) for which I have uploaded exercises corrections/examples of codes (_more to come_) :
 
-Lang | Website | what
-----| ----| ----
-:us: :uk: | [Greensock](https://greensock.com/) | JavaScript 'framework' to make animations 'flash like'
+Lang | Website | link to tuto | what
+----| ----| ----| ----
+:us: :uk: | [Greensock](https://greensock.com/) | [TweenMax()](https://greensock.com/docs/TweenMax) | JavaScript 'framework' to make animations 'flash like'
 
 <br>
 <br>
