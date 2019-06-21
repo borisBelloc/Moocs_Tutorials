@@ -10,14 +10,22 @@ _all remarks are welcomes_
 
 
 
-:necktie: List of sites for which I have uploaded the exercises corrections (_more to come_) :
-- A : :fr: **Open Class Room** : :arrow_lower_right: [Click here to jump at the end of the page](#open-class-room)
+### :balloon: Officials tutorials from randoms technologies (framework, libraries...) for which I have uploaded exercises corrections/examples of codes (_more to come_) :
 
+Lang | Website | what
+----| ----| ----
+:us: :uk: | [Greensock](https://greensock.com/) | JavaScript 'framework' to make animations 'flash like'
 
 <br>
 <br>
 
-List of interesting tutorial for differents technologies (that's my own memo) :innocent:
+### :necktie: List of MOOC websites for which I have uploaded the exercises corrections (_more to come_) :
+- :fr: **Open Class Room** : :arrow_lower_right: [Click here to jump at the end of the page](#open-class-room)
+
+<br>
+<br>
+
+### List of interesting tutorial for differents technologies (that's my own memo) :innocent:
 
 Language/Framework name | ? | lang
 ---- |---- |----
@@ -31,11 +39,7 @@ Language/Framework name | ? | lang
 <br>
 <br>
 
-## Ressources
 
-What | url
----- |----
-Bootsrap official exemple templates | https://getbootstrap.com/docs/4.0/examples/
 
 <br>
 <br>
