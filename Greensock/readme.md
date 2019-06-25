@@ -11,3 +11,6 @@
 
 -------------------
 [EN] -> https://greensock.com/docs/TweenMax
+
+Tools : 
+Ease Visualizer : https://greensock.com/ease-visualizer

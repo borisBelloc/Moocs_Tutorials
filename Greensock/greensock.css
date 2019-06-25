@@ -1,6 +1,7 @@
 body {
   background-color: #154a5a;
 }
+
 #myContainer {
   background-color: #7dc4db;
   height: 500px;
@@ -13,16 +14,67 @@ body {
   width: 50px;
   border-radius: 50%;
   position: absolute;
-  top:50px;
-  left:50px;
+  top: 50px;
+  left: 50px;
   /* border: 1px dotted rgb(40, 248, 179); */
 }
+
 #circel2 {
   background-color: rgb(116, 135, 245);
   height: 50px;
   width: 50px;
   /* border-radius: 50%; */
   position: absolute;
-  top:50px;
-  left:300px;
+  top: 50px;
+  left: 300px;
+}
+
+#circel3 {
+  background-color: purple;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: 150px;
+  left: 50px;
+}
+#circel3:before {
+  content: "";
+  position: absolute;
+  top: 1%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+  border-radius: 50%;
+  background: radial-gradient(circle at 50% 0px, #ffffff, rgba(255, 255, 255, 0) 58%);
+  filter: blur(2px);
+  z-index: 2;
+}
+
+/* #ball1 {
+  background-color: purple;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: 150px;
+  left: 50px;
+} */
+
+#logo {
+  position: absolute;
+  top: 250px;
+  padding-left: 15px
+}
+#logo2 {
+  position: absolute;
+  top: 250px;
+  left: 150px;
+  padding-left: 15px
+}
+#logo3 {
+  position: absolute;
+  top: 250px;
+  left: 300px;
+  padding-left: 15px
 }

@@ -4,7 +4,7 @@
 // var circel1 = document.getElementById("circel1");
 
 // TweenMax.to(target, duration, {vars});
-// TweenMax.to(circel1, 2, {width:"200px", height:"200px"});
+TweenMax.to(circel1, 2, {width:"20px", height:"20px"});
 
 // -------------------------------------------------------
 
@@ -24,6 +24,11 @@
 // * repeat:-1 : infinite repeat
 // * left: move from 0 ; x: move from current position
 // * ease: Linear.easeNone : make the movement smooth
+//    * default ease out ease on -> ralentis a la fin de l'animation
+// ease:Back.easeOut -> overshout end property and move back to it
+// ease:Elastic.easeOut 
+// ease:Bounce.easeOut 
+// https://greensock.com/ease-visualizer
 // -------
 
 
@@ -48,6 +53,13 @@ circel2_yoyo
     borderRadius:0,
     ease: Linear.easeNone
   });
-// circel2_yoyo
-//   .to("#circel2", 0.5, { x: 10, ease: Linear.easeNone })
-//   .to("#circel2", 1, { x: -10, ease: Linear.easeNone, repeat: -1, yoyo: true });
+
+// TweenMax.to(".bubble", 1, {opacity:0.5, rotation:45});
+
+TweenMax.to("#circel3", 2, {x:300, rotation:360, scale:2});
+
+// Logo
+// TweenMax.to("#logo", 0.5, {x:300, rotation:360, scale:2});
+// TweenMax.from("#logo", 0.5, {opacity:0, scale:0, ease:AudioBufferSourceNode.easeOut});
+// TweenMax.to("#logo", 2, {left:200, backgroundColor:"#f00", padding:20, border:"6px solid #fff", borderRadius:"20%", ease:Elastic.easeOut});
+
