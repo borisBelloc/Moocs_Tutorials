@@ -54,7 +54,6 @@ circel2_yoyo
     ease: Linear.easeNone
   });
 
-// TweenMax.to(".bubble", 1, {opacity:0.5, rotation:45});
 
 TweenMax.to("#circel3", 2, {x:300, rotation:360, scale:2});
 
