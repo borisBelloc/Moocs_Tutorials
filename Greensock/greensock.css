@@ -4,7 +4,7 @@ body {
 
 #myContainer {
   background-color: #7dc4db;
-  height: 500px;
+  height: 700px;
   padding: 0;
 }
 
@@ -38,6 +38,7 @@ body {
   top: 150px;
   left: 50px;
 }
+
 #circel3:before {
   content: "";
   position: absolute;
@@ -66,15 +67,42 @@ body {
   top: 250px;
   padding-left: 15px
 }
+
 #logo2 {
   position: absolute;
   top: 250px;
   left: 150px;
   padding-left: 15px
 }
+
 #logo3 {
   position: absolute;
   top: 250px;
   left: 300px;
   padding-left: 15px
 }
+
+/* SERIE1 */
+.serie1 {
+  background-color: rgb(50, 154, 214);
+  position: absolute;
+  top: 450px;
+  height: 200px;
+  width: 500px;
+  padding: 10px;
+}
+#logo4 {
+  position: relative;
+  float:left;
+}
+
+.box {
+  position: relative;
+  background-color: greenyellow;
+  height: 25px;
+  width: 25px;
+  border-radius: 25%;
+  float:left;
+  
+}
+/* /Anim SERIE1 */

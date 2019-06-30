@@ -58,7 +58,25 @@ circel2_yoyo
 TweenMax.to("#circel3", 2, {x:300, rotation:360, scale:2});
 
 // Logo
-// TweenMax.to("#logo", 0.5, {x:300, rotation:360, scale:2});
-// TweenMax.from("#logo", 0.5, {opacity:0, scale:0, ease:AudioBufferSourceNode.easeOut});
-// TweenMax.to("#logo", 2, {left:200, backgroundColor:"#f00", padding:20, border:"6px solid #fff", borderRadius:"20%", ease:Elastic.easeOut});
+TweenMax.from("#logo", 0.5, {opacity:0, scale:0, ease:AudioBufferSourceNode.easeOut});
+TweenMax.to("#logo2", 2, {left:200, backgroundColor:"#f00", padding:20, border:"6px solid #fff", borderRadius:"20%", ease:Elastic.easeOut});
+TweenMax.to("#logo3", 0.5, {x:300, rotation:360, scale:1.5});
 
+// ---------------------
+// Logo anim serie1
+TweenMax.from("#logo4", 0.5, {opacity:0, scale:0, ease:Bounce.easeOut})
+// .box appear after the logo
+// TweenMax.from(".box", 0.5, {opacity:0, y:200, delay:0.5})
+
+// .box appear one after one (staggered) after the logo // 0.2 : ammount of time between the animation on each box
+// TweenMax.staggerFrom(".box", 0.5, {opacity:0, y:200, delay:0.5}, 0.2)
+TweenMax.staggerFrom(".box", 0.5, {opacity:0, y:200, delay:0.5, rotation:360, scale:2}, 0.2)
+
+// Fade everything after anim + launch a function when completed
+TweenMax.to("#logo4, .box", 0.5, {opacity:0, delay:2, onComplete:complete})
+
+function complete() {
+  // alert("all done")
+  console.log("anim done");
+}
+// ---------------------
