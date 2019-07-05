@@ -5,6 +5,11 @@ public class Product {
     private String description;
     private double price;
 
+    public Product(String name, String description, double price) {
+        this.name = name;
+        this.description = description;
+        this.price = price;
+    }
 
     /**
      * Display a full description of the product
@@ -18,7 +23,6 @@ public class Product {
      * @param quantity the quantity to add
      */
     public void buy (Bill bill, Integer quantity){
-
     }
 
     public String getName() {
