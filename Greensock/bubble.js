@@ -22,7 +22,13 @@
 
 
 // Todo: comment remetre le bubble move sans retourner en position initial ?
-TweenMax.to("#ballDjango", 0, {className:"-=bubbleMove", overwrite:"none"})
-TweenMax.to("#ballDjango", 1, {x:500, rotation:360});
+TweenMax.to(".bgRed", 0, {className:"-=bubbleMove", overwrite:"none"})
+TweenMax.to(".bgRed", 1, {x:500, rotation:360});
 // TweenMax.to("#ballDjango", 1, {className:"+=bubbleMove", overwrite:"none", delay:2})
+// TweenMax.to(".bgRed", 1, {className:"+=bubbleMoveAndMove", delay:2})
 
+TweenMax.to("#ballMove", 1, {className:"+=bubbleMoveAndMove"})
+
+// dans le cas ou une animation remet l'objet a la position initiale... 
+// essayer de supprimer la position initiale du CSS (-> objet invisible)
+// ensuite mettre une position initiale dans l'animation ?
