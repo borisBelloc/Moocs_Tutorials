@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75d5b854-6196-4e54-b8af-ffe1890c692a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="75d5b854-6196-4e54-b8af-ffe1890c692a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +34,7 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/com/bb/homeshop/Television.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="204">
@@ -45,6 +43,21 @@
                     <element signature="e#378#379#0" expanded="true" />
                     <element signature="e#413#414#0" expanded="true" />
                     <element signature="e#444#445#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/com/bb/homeshop/Fridge.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="340">
+                  <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+                  <folding>
+                    <element signature="e#346#347#0" expanded="true" />
+                    <element signature="e#374#375#0" expanded="true" />
+                    <element signature="e#408#409#0" expanded="true" />
+                    <element signature="e#438#439#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -125,6 +138,7 @@
         <option value="$PROJECT_DIR$/src/com/bb/homeshop/Customer.java" />
         <option value="$PROJECT_DIR$/src/com/bb/homeshop/Product.java" />
         <option value="$PROJECT_DIR$/src/com/bb/homeshop/Television.java" />
+        <option value="$PROJECT_DIR$/src/com/bb/homeshop/Fridge.java" />
       </list>
     </option>
   </component>
@@ -243,7 +257,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14232409" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -360,6 +373,19 @@
             <element signature="e#378#379#0" expanded="true" />
             <element signature="e#413#414#0" expanded="true" />
             <element signature="e#444#445#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bb/homeshop/Fridge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
           </folding>
         </state>
       </provider>
