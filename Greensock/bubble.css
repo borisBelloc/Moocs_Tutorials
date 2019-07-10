@@ -35,15 +35,32 @@ body {
   /* Ci-dessous surpassé par d'autre class */
 }
 
-#toto {
+#blackCube {
+  position: absolute;
+  top: 200px;
   height: 50px;
   width: 50px;
   background-color: black;
 }
 
+#morph {
+  position: absolute;
+  top: 300px;
+  left: 25px;
+  height: 50px;
+  width: 50px;
+  background: rgb(25, 26, 83);
+}
+
+.morph-background {
+  background: linear-gradient(217deg, rgba(255, 0, 0, .8), rgba(255, 0, 0, 0) 70.71%),
+    linear-gradient(127deg, rgba(0, 255, 0, .8), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgba(0, 0, 255, .8), rgba(0, 0, 255, 0) 70.71%)!important;
+}
+
 
 /* ********************************** */
-/* * BUBLE */
+/* * SKINs */
 /* ********************************** */
 .bgRed {
   background-color: red;
