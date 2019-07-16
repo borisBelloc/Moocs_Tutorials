@@ -24,7 +24,7 @@
 
 
 // Todo: comment remetre le bubble move sans retourner en position initial ?
-TweenMax.to(".bgRed", 0, {className:"-=bubbleMove", overwrite:"none"})
+TweenMax.to(".bgRed", 0, {className:"-=bubbleMove", overwrite:"none"});
 TweenMax.to(".bgRed", 1, {x:500, rotation:360});
 // TweenMax.to("#ballDjango", 1, {className:"+=bubbleMove", overwrite:"none", delay:2})
 // TweenMax.to(".bgRed", 1, {className:"+=bubbleMoveAndMove", delay:2})

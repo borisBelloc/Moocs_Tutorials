@@ -325,9 +325,9 @@ body {
 	margin-left: -2.1em;
 	bottom: .1em;
 }
-.bubbleb {
+.liquidBubble {
 	z-index: 9999;
-	animation: bubbleb 1.8s ease infinite;
+	animation: liquidBubble 1.8s ease infinite;
   animation-delay: 0.2s;
 	background: #ff90aa;
 	height: 20px;
@@ -339,9 +339,9 @@ body {
 	opacity: 1;
 }
 
-.bubbleb.two {
+.liquidBubble.two {
 	z-index: 9999;
-	animation: bubbleb 1.5s ease infinite;
+	animation: liquidBubble 1.5s ease infinite;
   animation-delay: 0.1s;
 	background: #ff90aa;
 	height: 10px;
@@ -353,9 +353,9 @@ body {
 	opacity: 1;
 }
 
-.bubbleb.three {
+.liquidBubble.three {
 	z-index: 9999;
-	animation: bubble 1.5s ease infinite;
+	animation: liquidBubble 1.5s ease infinite;
   animation-delay: -0.1s;
 	background: #ff90aa;
 	height: 10px;
@@ -367,7 +367,7 @@ body {
 	opacity: 1;
 }
 
-@keyframes bubbleb {
+@keyframes liquidBubble {
   0% {
 		opacity: 1;
   }
