@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class Bill {
     private Customer customer;
-    // par défault, une map (ou tout type objet) est null, il faut ajouter une valeur a l'interieur pour qu'il ne soit plus nul, soit ; 'new HashMap'
+    // par défault, une map (ou tout type objet) est null, il faut ajouter une valeur a l'interieur pour qu'il ne soit plus nul, soit ; 'new HashMap<>'
     private Map<Product, Integer> products = new HashMap<Product, Integer>();
 
     // Constructeur de l'objet ; la methode porte le nom de la class
@@ -16,7 +16,6 @@ public class Bill {
 
     /**
      * Add a product with a quantity in the bill
-     *
      * @param product  product to add
      * @param quantity quantity of the product
      */
