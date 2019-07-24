@@ -12,11 +12,31 @@ public class Main {
 
         Customer customerOne = new Customer("Boris BELLOC", "136 rue tam, Paris");
 
-        Bill bill = new Bill(customerOne);
+        Bill bill = new Bill(customerOne, new RelayDelivery(27));
+
         bill.addProduct(cafe, 1);
         bill.addProduct(tv, 1);
         bill.addProduct(fridge, 1);
 
+        // Creer un fichier pour facture
+         bill.generate(new FileWriter("facture_client"));
+
+        // -----------------------------------
+        // affiche la facture dans console
+//        bill.generate(new Writer() {
+//            @Override
+//            public void start() {
+//            }
+//
+//            @Override
+//            public void writeLine(String line) {
+//                System.out.println(line);
+//            }
+//
+//            @Override
+//            public void stop() {
+//            }
+//        });
 
 
     }
