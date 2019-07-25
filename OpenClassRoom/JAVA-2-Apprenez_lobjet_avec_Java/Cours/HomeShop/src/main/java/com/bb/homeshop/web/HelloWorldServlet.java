@@ -13,6 +13,6 @@ public class HelloWorldServlet extends HttpServlet {
     // (par exemple le message GET de la première partie).
     // ** HttpServletResponse resp  : un objet permettant d'envoyer la réponse.
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.getWriter().println("Hello msg");
+        resp.getWriter().println("Hello Boris here is text");
     }
 }
