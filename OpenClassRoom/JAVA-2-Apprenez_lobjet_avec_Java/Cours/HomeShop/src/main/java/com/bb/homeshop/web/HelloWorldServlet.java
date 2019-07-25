@@ -14,5 +14,6 @@ public class HelloWorldServlet extends HttpServlet {
     // ** HttpServletResponse resp  : un objet permettant d'envoyer la réponse.
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.getWriter().println("Hello Boris here is text");
+
     }
 }
