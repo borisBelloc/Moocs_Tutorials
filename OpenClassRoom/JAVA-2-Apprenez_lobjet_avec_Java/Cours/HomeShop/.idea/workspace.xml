@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75d5b854-6196-4e54-b8af-ffe1890c692a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeShop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HomeShop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bb/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bb/homeshop/Bill.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bb/homeshop/Customer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bb/homeshop/Delivery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bb/homeshop/DirectDelivery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bb/homeshop/ExpressDelivery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bb/homeshop/FileWriter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bb/homeshop/Fridge.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bb/homeshop/NoProductInBillException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bb/homeshop/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bb/homeshop/RelayDelivery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bb/homeshop/TakeAwayDelivery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bb/homeshop/Television.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bb/homeshop/Writer.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -107,11 +90,23 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/pom.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+                <state relative-caret-position="578">
+                  <caret line="34" column="10" lean-forward="true" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/bb/homeshop/web/HelloWorldServlet.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="187">
+                  <caret line="11" column="12" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="12" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -163,8 +158,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/test/com/bb/homeshop/BillTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="207">
-                  <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+                <state relative-caret-position="691">
+                  <caret line="58" column="84" selection-start-line="58" selection-start-column="84" selection-end-line="58" selection-end-column="84" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -247,6 +242,7 @@
         <option value="$PROJECT_DIR$/src/com/bb/homeshop/Fridge.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bb/homeshop/DirectDelivery.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bb/homeshop/web/HelloWorldServlet.java" />
       </list>
     </option>
   </component>
@@ -279,6 +275,40 @@
               <item name="HomeShop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HomeShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HomeShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HomeShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HomeShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HomeShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HomeShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bb" type="462c0819:PsiDirectoryNode" />
+              <item name="homeshop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HomeShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HomeShop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bb" type="462c0819:PsiDirectoryNode" />
+              <item name="homeshop" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HomeShop" type="b2602c69:ProjectViewProjectNode" />
@@ -692,8 +722,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/bb/homeshop/BillTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        <state relative-caret-position="691">
+          <caret line="58" column="84" selection-start-line="58" selection-start-column="84" selection-end-line="58" selection-end-column="84" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -722,8 +752,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        <state relative-caret-position="578">
+          <caret line="34" column="10" lean-forward="true" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bb/homeshop/web/HelloWorldServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
