@@ -42,6 +42,10 @@ public class Bill {
      * @param writer object in charge of writing
      */
     public void generate(Writer writer) {
+        if (products.isEmpty()) {
+            throw new NoProductInBillException();
+        }
+
         writer.start();
         writer.writeLine("HomeShop compagnie");
         writer.writeLine("1 Place Charles de Gaulle, 75008 Paris");

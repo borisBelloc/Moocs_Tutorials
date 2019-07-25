@@ -14,29 +14,34 @@ public class Main {
 
         Bill bill = new Bill(customerOne, new RelayDelivery(27));
 
-        bill.addProduct(cafe, 1);
-        bill.addProduct(tv, 1);
-        bill.addProduct(fridge, 1);
+        // Les produits a mettre dans la facture
+//        bill.addProduct(cafe, 1);
+//        bill.addProduct(tv, 1);
+//        bill.addProduct(fridge, 1);
 
-        // Creer un fichier pour facture
-         bill.generate(new FileWriter("facture_client"));
+        try {
+            // Creer un fichier pour facture
+            bill.generate(new FileWriter("facture_client"));
 
-        // -----------------------------------
-        // affiche la facture dans console
-//        bill.generate(new Writer() {
-//            @Override
-//            public void start() {
-//            }
-//
-//            @Override
-//            public void writeLine(String line) {
-//                System.out.println(line);
-//            }
-//
-//            @Override
-//            public void stop() {
-//            }
-//        });
+            // -----------------------------------
+            // affiche la facture dans console
+            bill.generate(new Writer() {
+                @Override
+                public void start() {
+                }
+
+                @Override
+                public void writeLine(String line) {
+                    System.out.println(line);
+                }
+
+                @Override
+                public void stop() {
+                }
+            });
+        } catch (NoProductInBillException e) {
+            System.err.println("Pas de produit dans la facture");
+        }
 
 
     }
