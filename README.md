@@ -29,6 +29,8 @@ Lang | Website | link to tuto | what
 
 Language/Framework name | ? | lang
 ---- |---- |----
+[Cyber Security](https://secnumacademie.gouv.fr/) | by French gouvernment | FR
+[Angular Official](https://angular.io/start) | _One framework. Mobile & desktop._ | EN
 [Redux: Official](https://redux.js.org/) | _A predictable state container for JavaScript apps (I used it with React Native)._ | EN
 [Redux: English tutorials vidéos](https://egghead.io/courses/getting-started-with-redux) | Nice videos made by one of Redux developper. |EN
 [Django: Official](https://www.djangoproject.com/) | _Python Web framework_ | EN FR ...
@@ -83,7 +85,7 @@ Culture | [Comprendre le Web](https://openclassrooms.com/fr/courses/1946386-comp
 JavaScript | [Apprenez à coder avec JavaScript](https://openclassrooms.com/fr/courses/2984401-apprenez-a-coder-avec-javascript) | 20h | Facile | :white_check_mark: 2019/03/14 | 2/2 | 1/1
 Algorithmie | [Découvrez le fonctionnement des algorithmes](https://openclassrooms.com/fr/courses/4366701-decouvrez-le-fonctionnement-des-algorithmes) | 4h | Facile | :white_check_mark: 2019/05/08 | 0 | 3/3
 Algorithmie | [Algorithmique pour l'apprenti programmeur](https://openclassrooms.com/fr/courses/1467201-algorithmique-pour-lapprenti-programmeur) | / | Facile |  :point_right: _en cours_ | 0/0 | 0/0
-Bootstrap 3.3 (exercices to 4.x) | [Prenez en main Bootstrap](https://openclassrooms.com/fr/courses/1885491-prenez-en-main-bootstrap) | 10h | Moyenne | non | 0/2 | 0/1 
+Bootstrap 3.3 (exercices to 4.x) | [Prenez en main Bootstrap](https://openclassrooms.com/fr/courses/1885491-prenez-en-main-bootstrap) | 10h | Moyenne | :point_right: _en cours_ | 0/2 | 0/1 
 Git | [Gérez votre code avec Git et GitHub](https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github) | 6h | Facile | :white_check_mark: 2018/06/24 | / | 3/3
 Django/Python | [Découvrez le framework Django](https://openclassrooms.com/fr/courses/4425076-decouvrez-le-framework-django) | 20h | Moyenne | :white_check_mark: | 1/1 | 5/5
 Django/Python | [Développez votre site web avec le framework Django](https://openclassrooms.com/fr/courses/1871271-developpez-votre-site-web-avec-le-framework-django) | 40h | Moyenne | non | 0/2 | 2/4
