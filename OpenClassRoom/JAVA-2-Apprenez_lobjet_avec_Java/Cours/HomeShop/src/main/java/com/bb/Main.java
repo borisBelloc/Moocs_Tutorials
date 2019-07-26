@@ -16,7 +16,7 @@ public class Main {
 
         // Les produits a mettre dans la facture
         bill.addProduct(cafe, 1);
-//        bill.addProduct(tv, 1);
+        bill.addProduct(tv, 1);
 //        bill.addProduct(fridge, 1);
 
         try {
