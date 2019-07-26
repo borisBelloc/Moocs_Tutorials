@@ -15,8 +15,8 @@ public class Main {
         Bill bill = new Bill(customerOne, new RelayDelivery(27));
 
         // Les produits a mettre dans la facture
-        bill.addProduct(cafe, 1);
-        bill.addProduct(tv, 1);
+//        bill.addProduct(cafe, 1);
+//        bill.addProduct(tv, 1);
 //        bill.addProduct(fridge, 1);
 
         try {
