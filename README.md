@@ -71,27 +71,31 @@ _Tous les quizz/activités ne sont pas encore uploadé_
 
 Techno | Cours/url | Durée estimé | difficulté | terminé? | Activités | Quizz
 --- |--- |--- |--- |--- |--- |--- |
-JAVA | [Organisez et packagez une application Java avec Apache Maven](https://openclassrooms.com/fr/courses/4503526-organisez-et-packagez-une-application-java-avec-apache-maven) | 15 hours | Moyenne | _futur_ | 0/1 | 0/1
-JAVA | [Apprenez l’objet avec Java](https://openclassrooms.com/fr/courses/4989236-apprenez-l-objet-avec-java) | 20 hours | Moyenne | _next_ | 0/1 | 2/4
-JAVA | [Démarrez votre projet avec Java](https://openclassrooms.com/fr/courses/4975451-demarrez-votre-projet-avec-java) | 15 hours | Facile | :white_check_mark: 2019/06/18 | 0 | 4/4
-React Native | [Développez une application mobile React Native](https://openclassrooms.com/fr/courses/4902061-developpez-une-application-mobile-react-native) | 30 hours | Moyenne | _en pause_ | 0/1 | 2/4
-API REST (IBM) | [Utilisez des API REST dans vos projets web](https://openclassrooms.com/fr/courses/3449001-utilisez-des-api-rest-dans-vos-projets-web) | 6 hours | Facile | :white_check_mark: 2018/10/18 | 1/1 | 2/2
-Culture | [Comprendre le Web](https://openclassrooms.com/fr/courses/1946386-comprendre-le-web) | Facile | 6 hours | :white_check_mark: 2018/10/11 | 1/1 | 4/4
-JavaScript | [Apprenez à coder avec JavaScript](https://openclassrooms.com/fr/courses/2984401-apprenez-a-coder-avec-javascript) | 20 hours | Facile | :white_check_mark: 2019/03/14 | 2/2 | 1/1
-Algorithmie | [Découvrez le fonctionnement des algorithmes](https://openclassrooms.com/fr/courses/4366701-decouvrez-le-fonctionnement-des-algorithmes) | 4 hours | Facile | :white_check_mark: 2019/05/08 | 0 | 3/3
-Algorithmie | [Algorithmique pour l'apprenti programmeur](https://openclassrooms.com/fr/courses/1467201-algorithmique-pour-lapprenti-programmeur) | / | Facile |  _en cours_ | 0/0 | 0/0
-Bootstrap 3.3 (exercices to 4.x) | [Prenez en main Bootstrap](https://openclassrooms.com/fr/courses/1885491-prenez-en-main-bootstrap) | 10 hours | Moyenne | non | 0/2 | 0/1 
-Git | [Gérez votre code avec Git et GitHub](https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github) | 6 hours | Facile | :white_check_mark: 2018/06/24 | / | 3/3
-Django/Python | [Découvrez le framework Django](https://openclassrooms.com/fr/courses/4425076-decouvrez-le-framework-django) | 20 hours | Moyenne | :white_check_mark: | 1/1 | 5/5
-Django/Python | [Développez votre site web avec le framework Django](https://openclassrooms.com/fr/courses/1871271-developpez-votre-site-web-avec-le-framework-django) | 40 hours | Moyenne | non | 0/2 | 2/4
+Design | [UX design : découvrez les fondamentaux !](https://openclassrooms.com/fr/courses/3013856-ux-design-decouvrez-les-fondamentaux) | 8h | Moyenne | _todo_ | 0/1 | 0/4
+Design | [Initiez-vous au Design Thinking](https://openclassrooms.com/fr/courses/3013836-initiez-vous-au-design-thinking) | 6h | Facile | _todo_ | 0/1 | 0/3
+JAVA | [Organisez et packagez une application Java avec Apache Maven](https://openclassrooms.com/fr/courses/4503526-organisez-et-packagez-une-application-java-avec-apache-maven) | 15h | Moyenne | _todo_ | 0/1 | 0/1
+JAVA | [Apprenez l’objet avec Java](https://openclassrooms.com/fr/courses/4989236-apprenez-l-objet-avec-java) | 20h | Moyenne | :point_right: _en cours_ | 0/1 | 2/4
+JAVA | [Démarrez votre projet avec Java](https://openclassrooms.com/fr/courses/4975451-demarrez-votre-projet-avec-java) | 15h | Facile | :white_check_mark: 2019/06/18 | 0 | 4/4
+React Native | [Développez une application mobile React Native](https://openclassrooms.com/fr/courses/4902061-developpez-une-application-mobile-react-native) | 30h | Moyenne | _en pause_ | 0/1 | 2/4
+API REST (IBM) | [Utilisez des API REST dans vos projets web](https://openclassrooms.com/fr/courses/3449001-utilisez-des-api-rest-dans-vos-projets-web) | 6h | Facile | :white_check_mark: 2018/10/18 | 1/1 | 2/2
+Culture | [Comprendre le Web](https://openclassrooms.com/fr/courses/1946386-comprendre-le-web) | Facile | 6h | :white_check_mark: 2018/10/11 | 1/1 | 4/4
+JavaScript | [Apprenez à coder avec JavaScript](https://openclassrooms.com/fr/courses/2984401-apprenez-a-coder-avec-javascript) | 20h | Facile | :white_check_mark: 2019/03/14 | 2/2 | 1/1
+Algorithmie | [Découvrez le fonctionnement des algorithmes](https://openclassrooms.com/fr/courses/4366701-decouvrez-le-fonctionnement-des-algorithmes) | 4h | Facile | :white_check_mark: 2019/05/08 | 0 | 3/3
+Algorithmie | [Algorithmique pour l'apprenti programmeur](https://openclassrooms.com/fr/courses/1467201-algorithmique-pour-lapprenti-programmeur) | / | Facile |  :point_right: _en cours_ | 0/0 | 0/0
+Bootstrap 3.3 (exercices to 4.x) | [Prenez en main Bootstrap](https://openclassrooms.com/fr/courses/1885491-prenez-en-main-bootstrap) | 10h | Moyenne | non | 0/2 | 0/1 
+Git | [Gérez votre code avec Git et GitHub](https://openclassrooms.com/fr/courses/2342361-gerez-votre-code-avec-git-et-github) | 6h | Facile | :white_check_mark: 2018/06/24 | / | 3/3
+Django/Python | [Découvrez le framework Django](https://openclassrooms.com/fr/courses/4425076-decouvrez-le-framework-django) | 20h | Moyenne | :white_check_mark: | 1/1 | 5/5
+Django/Python | [Développez votre site web avec le framework Django](https://openclassrooms.com/fr/courses/1871271-developpez-votre-site-web-avec-le-framework-django) | 40h | Moyenne | non | 0/2 | 2/4
 Algorithmie | [L'algorithme min-max](https://openclassrooms.com/fr/courses/1202501-lalgorithme-min-max) | / | Facile | :white_check_mark: 2018/05/12 | 0/0 | 0/0
-Culture | [Apprenez à apprendre](https://openclassrooms.com/fr/courses/4312781-apprenez-a-apprendre) | 6 hours | Facile | non | 0/1 | 2/3
-Linux | [Reprenez le contrôle à l'aide de Linux !](https://openclassrooms.com/fr/courses/43538-reprenez-le-controle-a-laide-de-linux) | 30 hours | Facile | _à finir, <br> 85% fait_ | 0/1 | 4/5
-HTML5 & CSS3 | [Apprenez à créer votre site web avec HTML5 et CSS3](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1604192-decouvrez-le-fonctionnement-des-sites-web) | 20 hours | Facile | _à finir_ | 0/4 | 1/4 
-Python | [Apprenez à programmer en Python](https://openclassrooms.com/fr/courses/235344-apprenez-a-programmer-en-python) | 40 hours | Difficile | non | 0/2 TP 0/2 | 0/2
-Python | [Démarrez votre projet avec Python](https://openclassrooms.com/fr/courses/4262331-demarrez-votre-projet-avec-python) | 4 hours | Facile | :white_check_mark: 2018/06/22 | 0/0 | 3/3
+Culture | [Apprenez à apprendre](https://openclassrooms.com/fr/courses/4312781-apprenez-a-apprendre) | 6h | Facile | non | 0/1 | 2/3
+Linux | [Reprenez le contrôle à l'aide de Linux !](https://openclassrooms.com/fr/courses/43538-reprenez-le-controle-a-laide-de-linux) | 30h | Facile | _à finir, <br> 85% fait_ | 0/1 | 4/5
+HTML5 & CSS3 | [Apprenez à créer votre site web avec HTML5 et CSS3](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1604192-decouvrez-le-fonctionnement-des-sites-web) | 20h | Facile | _à finir_ | 0/4 | 1/4 
+Python | [Apprenez à programmer en Python](https://openclassrooms.com/fr/courses/235344-apprenez-a-programmer-en-python) | 40h | Difficile | non | 0/2 TP 0/2 | 0/2
+Python | [Démarrez votre projet avec Python](https://openclassrooms.com/fr/courses/4262331-demarrez-votre-projet-avec-python) | 4h | Facile | :white_check_mark: 2018/06/22 | 0/0 | 3/3
 
 _/ == Plus disponible_
+<br>
+_temps estimé en heures_
 
 <br>
 <br>
