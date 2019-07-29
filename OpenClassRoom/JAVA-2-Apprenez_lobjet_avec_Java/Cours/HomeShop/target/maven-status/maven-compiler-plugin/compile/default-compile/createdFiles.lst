@@ -8,6 +8,7 @@ com\bb\Main$1.class
 com\bb\homeshop\NoProductInBillException.class
 com\bb\homeshop\Bill.class
 com\bb\homeshop\TakeAwayDelivery.class
+com\bb\homeshop\web\BillServlet$1.class
 com\bb\homeshop\RelayDelivery.class
 com\bb\homeshop\Writer.class
 com\bb\Main.class
