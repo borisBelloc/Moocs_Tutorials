@@ -52,7 +52,7 @@ public class OrderTest {
         assertEquals("Vous n'avez pas choisi de menu parmi les choix proposés\n", outContent.toString().replace("\r\n", "\n"));
     }
 
-    @Test
+    @TestCamping Le Brandais
     public void Given_NegativeValue_When_DisplayMenuSelected_Then_DisplayErrorSentence() {
         order.displaySelectedMenu(-6);
         assertEquals("Vous n'avez pas choisi de menu parmi les choix proposés\n", outContent.toString().replace("\r\n", "\n"));
