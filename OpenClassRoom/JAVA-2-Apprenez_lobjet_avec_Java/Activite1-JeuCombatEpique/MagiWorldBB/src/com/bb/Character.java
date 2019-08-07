@@ -3,31 +3,57 @@ package com.bb;
 public abstract class Character {
     private String playerOwner;
     private int level;
-    private int life;
     private int strength;
     private int agility;
     private int intelligence;
+    private int life;
+    private int maxLife;
 
-    public Character(String playerOwner, int level, int life, int strength, int agility, int intelligence) {
+    public Character(String playerOwner, int level, int strength, int agility, int intelligence, int life) {
         this.playerOwner = playerOwner;
         this.level = level;
-        this.life = life;
         this.strength = strength;
         this.agility = agility;
         this.intelligence = intelligence;
+        this.life = life;
+        this.maxLife = life;
     }
+
 
     /**
      * Basic attack
+     * @return number of damage
      */
-    abstract void basicAttack();
+    abstract int basicAttack();
+
+    /**
+     * Text to print
+     * @param currentPlayer the one playing now
+     * @param enemy the enemy of current player
+     */
+    public void basicAttackLog(Character currentPlayer, Character enemy) {
+        System.out.printf("%s utilise %s et inflige %d dommages.\n",
+                currentPlayer.getPlayerOwner(), currentPlayer.getBasicAttackName(), currentPlayer.basicAttack());
+        System.out.printf("%s perd %d points de vie\n",
+                enemy.getPlayerOwner(), currentPlayer.basicAttack());
+    }
+
 
     /**
      * Special attack
+     *
+     * @return damage/health as array
      */
-    abstract void specialAttack();
+    abstract int[] specialAttack();
 
-    // TODO: Ajout getter ?
+    abstract void specialAttackLog(Character currentPlayer, Character enemy);
+
+    /**
+     * Character description
+     *
+     * @return w/ attributs
+     */
+    abstract String getDescription();
 
     /**
      * @return Basic attack name
@@ -39,8 +65,6 @@ public abstract class Character {
      */
     abstract String getSpecialAttackName();
 
-
-    // * GETTER
 
     public String getPlayerOwner() {
         return playerOwner;
@@ -66,14 +90,13 @@ public abstract class Character {
         return intelligence;
     }
 
-    // * SETTER
+    public int getMaxLife() {
+        return maxLife;
+    }
+
 
     public void setPlayerOwner(String playerOwner) {
         this.playerOwner = playerOwner;
-    }
-
-    public void setLevel(int level) {
-        this.level = level;
     }
 
     public void setLife(int life) {
