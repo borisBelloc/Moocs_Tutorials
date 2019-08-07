@@ -77,7 +77,7 @@ Angular | [Développez des applications Web avec Angular](https://openclassrooms
 Design | [UX design : découvrez les fondamentaux !](https://openclassrooms.com/fr/courses/3013856-ux-design-decouvrez-les-fondamentaux) | 8h | Moyenne | _todo_ | 0/1 | 0/4
 Design | [Initiez-vous au Design Thinking](https://openclassrooms.com/fr/courses/3013836-initiez-vous-au-design-thinking) | 6h | Facile | _todo_ | 0/1 | 0/3
 JAVA | [Organisez et packagez une application Java avec Apache Maven](https://openclassrooms.com/fr/courses/4503526-organisez-et-packagez-une-application-java-avec-apache-maven) | 15h | Moyenne | _todo_ | 0/1 | 0/1
-JAVA | [Apprenez l’objet avec Java](https://openclassrooms.com/fr/courses/4989236-apprenez-l-objet-avec-java) | 20h | Moyenne | :point_right: _en cours_ | 0/1 | 3/4
+JAVA | [Apprenez l’objet avec Java](https://openclassrooms.com/fr/courses/4989236-apprenez-l-objet-avec-java) | 20h | Moyenne | :point_right: _en cours_ | 1/1 | 3/4
 JAVA | [Démarrez votre projet avec Java](https://openclassrooms.com/fr/courses/4975451-demarrez-votre-projet-avec-java) | 15h | Facile | :white_check_mark: 2019/06/18 | 0 | 4/4
 React Native | [Développez une application mobile React Native](https://openclassrooms.com/fr/courses/4902061-developpez-une-application-mobile-react-native) | 30h | Moyenne | _en pause_ | 0/1 | 2/4
 API REST (IBM) | [Utilisez des API REST dans vos projets web](https://openclassrooms.com/fr/courses/3449001-utilisez-des-api-rest-dans-vos-projets-web) | 6h | Facile | :white_check_mark: 2018/10/18 | 1/1 | 2/2
