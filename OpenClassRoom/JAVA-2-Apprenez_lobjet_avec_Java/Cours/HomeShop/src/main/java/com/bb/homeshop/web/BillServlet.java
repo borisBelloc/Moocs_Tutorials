@@ -1,6 +1,7 @@
 package com.bb.homeshop.web;
 
 import com.bb.homeshop.*;
+import com.bb.homeshop.dao.ProductDAO;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -19,13 +20,16 @@ public class BillServlet extends HttpServlet {
     @Override
     public void init() throws ServletException {
         // creation des produits
-        Product cafe = new Product("Philips", "Senseo Noir", 79.99);
+        /* Product cafe = new Product("Philips", "Senseo Noir", 79.99);
         Television tv = new Television("Tv Samsung", "Smart TV LED 49\"", 599, 49, "LED");
         Fridge fridge = new Fridge("BEKQ", "réfrigérateur 130L blanc", 189, 130, false);
         // ajout dans la liste
         products.add(cafe);
         products.add(tv);
-        products.add(fridge);
+        products.add(fridge); */
+
+        // utilisation de la BDD
+        products = new ProductDAO().getAll();
     }
 
     @Override

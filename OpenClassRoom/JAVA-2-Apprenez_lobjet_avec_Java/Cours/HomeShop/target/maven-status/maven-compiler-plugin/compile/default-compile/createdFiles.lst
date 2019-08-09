@@ -1,9 +1,12 @@
 com\bb\homeshop\web\BillServlet.class
 com\bb\homeshop\web\HelloWorldServlet.class
+com\bb\garage\Vehicle.class
 com\bb\homeshop\FileWriter.class
+com\bb\garage\Car.class
 com\bb\homeshop\DirectDelivery.class
 com\bb\homeshop\Fridge.class
 com\bb\homeshop\Customer.class
+com\bb\homeshop\dao\ProductDAO.class
 com\bb\Main$1.class
 com\bb\homeshop\NoProductInBillException.class
 com\bb\homeshop\Bill.class
