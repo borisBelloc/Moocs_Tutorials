@@ -1,5 +1,7 @@
 G:\_Projets\_Mooc_Tutorial\OpenClassRoom\JAVA-2-Apprenez_lobjet_avec_Java\Cours\HomeShop\src\main\java\com\bb\homeshop\Bill.java
+G:\_Projets\_Mooc_Tutorial\OpenClassRoom\JAVA-2-Apprenez_lobjet_avec_Java\Cours\HomeShop\src\main\java\com\bb\garage\Vehicle.java
 G:\_Projets\_Mooc_Tutorial\OpenClassRoom\JAVA-2-Apprenez_lobjet_avec_Java\Cours\HomeShop\src\main\java\com\bb\homeshop\web\HelloWorldServlet.java
+G:\_Projets\_Mooc_Tutorial\OpenClassRoom\JAVA-2-Apprenez_lobjet_avec_Java\Cours\HomeShop\src\main\java\com\bb\garage\Car.java
 G:\_Projets\_Mooc_Tutorial\OpenClassRoom\JAVA-2-Apprenez_lobjet_avec_Java\Cours\HomeShop\src\main\java\com\bb\homeshop\Fridge.java
 G:\_Projets\_Mooc_Tutorial\OpenClassRoom\JAVA-2-Apprenez_lobjet_avec_Java\Cours\HomeShop\src\main\java\com\bb\homeshop\Television.java
 G:\_Projets\_Mooc_Tutorial\OpenClassRoom\JAVA-2-Apprenez_lobjet_avec_Java\Cours\HomeShop\src\main\java\com\bb\homeshop\DirectDelivery.java
@@ -8,6 +10,7 @@ G:\_Projets\_Mooc_Tutorial\OpenClassRoom\JAVA-2-Apprenez_lobjet_avec_Java\Cours\
 G:\_Projets\_Mooc_Tutorial\OpenClassRoom\JAVA-2-Apprenez_lobjet_avec_Java\Cours\HomeShop\src\main\java\com\bb\homeshop\NoProductInBillException.java
 G:\_Projets\_Mooc_Tutorial\OpenClassRoom\JAVA-2-Apprenez_lobjet_avec_Java\Cours\HomeShop\src\main\java\com\bb\Main.java
 G:\_Projets\_Mooc_Tutorial\OpenClassRoom\JAVA-2-Apprenez_lobjet_avec_Java\Cours\HomeShop\src\main\java\com\bb\homeshop\Writer.java
+G:\_Projets\_Mooc_Tutorial\OpenClassRoom\JAVA-2-Apprenez_lobjet_avec_Java\Cours\HomeShop\src\main\java\com\bb\homeshop\dao\ProductDAO.java
 G:\_Projets\_Mooc_Tutorial\OpenClassRoom\JAVA-2-Apprenez_lobjet_avec_Java\Cours\HomeShop\src\main\java\com\bb\homeshop\RelayDelivery.java
 G:\_Projets\_Mooc_Tutorial\OpenClassRoom\JAVA-2-Apprenez_lobjet_avec_Java\Cours\HomeShop\src\main\java\com\bb\homeshop\ExpressDelivery.java
 G:\_Projets\_Mooc_Tutorial\OpenClassRoom\JAVA-2-Apprenez_lobjet_avec_Java\Cours\HomeShop\src\main\java\com\bb\homeshop\web\BillServlet.java

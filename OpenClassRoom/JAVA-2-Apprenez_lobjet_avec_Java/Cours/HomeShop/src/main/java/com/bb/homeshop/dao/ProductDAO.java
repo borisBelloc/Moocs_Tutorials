@@ -10,7 +10,9 @@ public class ProductDAO {
 
     // DAO = data access object
 
-    private String url = "jdbc:mysql://localhost/homeshop";
+    // Probleme time zone : https://www.developpez.net/forums/d1876029/java/general-java/server-time-zone-non-reconnu/
+    // ajouter :: ?zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=UTC
+    private String url = "jdbc:mysql://localhost:3306/homeshop?zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=UTC";
     private String user = "root";
     private String pwd = "dky1234";
 
@@ -19,20 +21,18 @@ public class ProductDAO {
      * @return product list
      */
     public List<Product> getAll() {
-        // liste permetant de retourner les produits
         List<Product> products = new ArrayList<>();
         try {
             Connection connection = DriverManager.getConnection(url, user, pwd);
-            //recuperation des données
             Statement statement = connection.createStatement();
-            ResultSet rs = statement.executeQuery( "select * from product");
+            ResultSet rs = statement.executeQuery("select * from product");
             while (rs.next()) {
                 String name = rs.getString("name");
-                String description = rs.getString( "description");
-                Double price = rs.getDouble( "price");
+                String description = rs.getString("description");
+                Double price = rs.getDouble("price");
                 products.add(new Product(name, description, price));
             }
-
+            connection.close();
         } catch (SQLException e) {
             e.printStackTrace();
         }

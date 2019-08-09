@@ -56,16 +56,16 @@ public class BillServlet extends HttpServlet {
         Delivery delivery = null;
         // "deliveryInfo" nom champs html
         switch (params.get("deliveryMode")) {
-            case "direct" :
+            case "direct":
                 delivery = new DirectDelivery();
                 break;
-            case "express" :
+            case "express":
                 delivery = new ExpressDelivery(params.get("deliveryInfo"));
                 break;
-            case "relay" :
+            case "relay":
                 delivery = new RelayDelivery(Integer.parseInt(params.get("deliveryInfo")));
                 break;
-            case "takeAway" :
+            case "takeAway":
                 delivery = new TakeAwayDelivery();
                 break;
         }
@@ -128,7 +128,7 @@ public class BillServlet extends HttpServlet {
     }
 
 
-//    Pour pouvoir utiliser cette méthode dans plusieurs  Servlet , il faut la déplacer dans une classe ServletUtils
+    //    Pour pouvoir utiliser cette méthode dans plusieurs  Servlet , il faut la déplacer dans une classe ServletUtils
 //    et mettre celle-ci en  static .
     // infos : https://openclassrooms.com/fr/courses/4989236-apprenez-l-objet-avec-java/5040011-utilisez-votre-formulaire#/id/r-5040034
     public Map<String, String> splitParameters(String queryString) {
