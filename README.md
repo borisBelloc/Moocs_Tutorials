@@ -113,6 +113,7 @@ _temps estimé en heures_
 
 Techno | Courses | TP
 ---| ---| ---
+Java | Apprenez à programmer en Java | #1 Degrees Celsius to Fahrenheit converter and vice versa (Console);
 Java | Apprenez l’objet avec Java | RPG Game (Console)
 Java | Démarrez votre projet avec Java | Menu for a restaurant (Console)
 React Native | Développez une application mobile React Native | Mobile app to manage movies
