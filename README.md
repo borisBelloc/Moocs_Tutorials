@@ -69,7 +69,7 @@ _French MOOC ; (explain the french description)_
 _Quizz et corrections des activités disponibles_
 _Tous les quizz/activités ne sont pas encore uploadé_
 
-[List of Practical works](#List-of-TP-practical-work-from-Moocs)
+[List of Practical works](#list-of-tp-practical-work-from-Moocs)
 
 :arrow_double_down: From Newest to oldest subscribed
 
@@ -107,8 +107,8 @@ _temps estimé en heures_
 <br>
 <br>
 
-## :baby_bottle: List of TP (practical work) from Moocs
-###### (*stored in their respective directories*)
+## List of TP (practical work) from Moocs
+######  :baby_bottle: (*stored in their respective directories*)
 
 Techno | Courses | TP
 ---| ---| ---
