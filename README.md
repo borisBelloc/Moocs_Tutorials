@@ -105,6 +105,19 @@ _temps estimé en heures_
 <br>
 <br>
 
+## List of TP (practical work) from Moocs.
+###### (*stored in their respective directories*)
+
+Techno | Courses | TP
+---| ---| ---
+Java | Apprenez l’objet avec Java | RPG Game (Console)
+Java | Démarrez votre projet avec Java | Menu for a restaurant (Console)
+React Native | Développez une application mobile React Native | Mobile app to manage movies
+JavaScript | Apprenez à coder avec JavaScript | Contact manager (console)
+Django | Développez votre site web avec le framework Django | website for a crêperie and url shortener
+Django | Découvrez le framework Django | website for a record store // *Disquaire*
+
+
 
     
 
