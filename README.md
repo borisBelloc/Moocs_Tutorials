@@ -69,10 +69,12 @@ _French MOOC ; (explain the french description)_
 _Quizz et corrections des activités disponibles_
 _Tous les quizz/activités ne sont pas encore uploadé_
 
+[List of Practical works](#List-of-TP-(practical-work)-from-Moocs)
+
 :arrow_double_down: From Newest to oldest subscribed
 
 Techno | Cours/url | Durée estimé | difficulté | terminé? | Activités | Quizz
---- |--- |--- |--- |--- |--- |--- |
+--- |--- |--- |--- |--- |--- |--- |--- |
 JAVA, Spring | [Simplifiez le développement d'applications Java avec Spring](https://openclassrooms.com/fr/courses/4504771-simplifiez-le-developpement-dapplications-java-avec-spring) | 15h | Moyenne | _next_ | 0/1 | 0/1
 Angular | [Développez des applications Web avec Angular](https://openclassrooms.com/fr/courses/4668271-developpez-des-applications-web-avec-angular) | 20h | Moyenne | _todo_ | 0/2 | 0/3
 Design | [UX design : découvrez les fondamentaux !](https://openclassrooms.com/fr/courses/3013856-ux-design-decouvrez-les-fondamentaux) | 8h | Moyenne | _todo_ | 0/1 | 0/4
@@ -105,7 +107,7 @@ _temps estimé en heures_
 <br>
 <br>
 
-## List of TP (practical work) from Moocs.
+## List of TP (practical work) from Moocs
 ###### (*stored in their respective directories*)
 
 Techno | Courses | TP
