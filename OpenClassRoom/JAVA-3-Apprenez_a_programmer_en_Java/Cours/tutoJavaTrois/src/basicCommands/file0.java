@@ -30,6 +30,7 @@ public class file0 {
 				}
 			}
 			System.out.println("Au revoir…");
+			sc.close();
 		}
 
 
@@ -56,7 +57,7 @@ public class file0 {
 		// Caster int -> String
 		int i = 12;
 		String j = new String();
-		j = j.valueOf(i);
+		j = String.valueOf(i);
 		// String -> int 
 		int k = Integer.valueOf(j).intValue(); // Il existe des équivalents a intValue()pour les autres types numériques :floatValue(),doubleValue()…
 
