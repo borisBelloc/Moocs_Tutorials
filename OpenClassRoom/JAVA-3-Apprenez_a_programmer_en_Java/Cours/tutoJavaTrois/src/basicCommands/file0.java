@@ -3,6 +3,8 @@ package basicCommands;
 import java.util.Scanner;
 
 public class file0 {
+	
+	// While, scanner
 
 	public static void main(String[] args) {
 		BoucleWhile();
