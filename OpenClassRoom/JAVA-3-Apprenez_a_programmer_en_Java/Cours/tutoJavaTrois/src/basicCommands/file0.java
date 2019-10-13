@@ -1,3 +1,5 @@
+package basicCommands;
+
 import java.util.Scanner;
 
 public class file0 {
@@ -24,7 +26,7 @@ public class file0 {
 				{
 					//On demande si la personne veut faire un autre essai
 					System.out.println("Voulez-vous réessayer ? (O/N)");
-					reponse = sc.nextLine().charAt(0);
+					reponse = sc.nextLine().toUpperCase().charAt(0);
 				}
 			}
 			System.out.println("Au revoir…");
