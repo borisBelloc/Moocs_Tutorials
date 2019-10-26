@@ -8,7 +8,13 @@ public class file0 {
 
 	public static void main(String[] args) {
 		BoucleWhile();
+		
+		
+
 	}
+
+	
+
 
 
 		public static void BoucleWhile() {
