@@ -1,10 +1,11 @@
 package cours_poo;
 
 public class Ville {
-	private String nomVille;
-	private String nomPays;
-	private int nbreHabitants;
-	private char categorie;
+	// protected permet aux enfant d'acceded aux variables
+	protected String nomVille;
+	protected String nomPays;
+	protected int nbreHabitants;
+	protected char categorie;
 
 	public static int nbreInstances = 0;
 	private static int nbreInstancesBis = 0;
@@ -17,6 +18,9 @@ public class Ville {
 		this.nbreHabitants = 0;
 		nbreInstances++;
 		nbreInstancesBis++;
+
+		setCategorie();
+
 	}
 
 	public Ville(String pNom, int pNbre, String pPays) {
@@ -42,8 +46,8 @@ public class Ville {
 
 	@Override
 	public String toString() {
-		return "Ville [nomVille=" + nomVille + ", nomPays=" + nomPays + ", nbreHabitants=" + nbreHabitants
-				+ ", categorie=" + categorie + "]";
+		return "\t" + this.nomVille + " est une ville de " + this.nomPays + ", elle comporte : " + this.nbreHabitants
+				+ " => elle est donc de catégorie : " + this.categorie;
 	}
 
 	public String getNomVille() {
