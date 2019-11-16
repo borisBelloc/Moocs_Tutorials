@@ -27,3 +27,13 @@ TRIED : https://stackoverflow.com/questions/44525746/global-angular-cli-version-
 
 ERROR :  Could not find the implementation for builder @angular-devkit/build-angular:dev-server
 F : `ng update @angular/cli @angular/core`
+
+E : An unhandled exception occurred: Could not find the implementation for builder @angular-devkit/build-angular:dev-server
+
+F : npm i @angular-devkit/build-angular
+
+
+
+## Instal local project
+
+S: https://angular.io/start/deployment
