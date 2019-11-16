@@ -14,6 +14,7 @@ _all remarks are welcomes_
 
 Lang | Website | link to tuto | what
 ----| ----| ----| ----
+:us: | [Angular](https://angular.io) | [Angular](https://angular.io/start) | Angular (2019/11/16)
 :us: :uk: | [Greensock](https://greensock.com/) | [TweenMax()](https://greensock.com/docs/TweenMax) | JavaScript 'framework' to make animations 'flash like'
 
 <br>
