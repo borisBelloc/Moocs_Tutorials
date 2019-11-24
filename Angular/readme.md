@@ -23,3 +23,8 @@ S: https://angular.io/start/deployment
 2. Create a new Angular CLI workspace using the ng new command : `ng new my-project-name`
 3. replace the /src folder with the one from your StackBlitz download, and then perform a build : `ng build --prod`
 4. run with : `ng serve --open`
+
+
+### Memo random commands
+
+`ng generate component <name>`
