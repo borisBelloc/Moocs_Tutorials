@@ -1,22 +1,16 @@
 <h2>Products</h2>
 
-
 <div *ngFor="let product of products">
-
   <h3>
-    <a [title]="product.name + ' details'">
-      {{ product.name }}
-    </a>
+    <a [title]="product.name + ' details'"> {{ product.name }} </a>
+    <span> ${{ product.price }} </span>
   </h3>
 
-  <p *ngIf="product.description">
-    Description: {{ product.description }}
-  </p>
+  <p *ngIf="product.description">Description: {{ product.description }}</p>
 
   <button (click)="share()">
     Share
   </button>
-
 
   <!-- [product]="product" : -->
   <!-- Pass the current product as input to the component using property binding -->
@@ -24,5 +18,4 @@
   <!-- bind the app-product-alerts component (which is what displays the "Notify Me" button) to the onNotify() method of the product list component -->
   <app-product-alerts [product]="product" (notify)="onNotify()">
   </app-product-alerts>
-
 </div>
