@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Input } from '@angular/core';
+import { Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-product-alerts',
@@ -8,7 +9,14 @@ import { Input } from '@angular/core';
 })
 export class ProductAlertsComponent implements OnInit {
 
+  //  define a property named product with an @Input() decorator.
+  // The @Input() decorator indicates that the property value passes in from the component's parent, the product list component
   @Input() product;
+
+  // define a property named notify with an @Output() decorator and an instance of EventEmitter().
+  // This allows the product alert component to emit an event when the value of the notify property changes
+  @Output() notify = new EventEmitter();
+
   constructor() { }
 
   ngOnInit() {
