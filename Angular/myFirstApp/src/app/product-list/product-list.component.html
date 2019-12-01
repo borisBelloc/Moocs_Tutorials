@@ -1,9 +1,13 @@
 <h2>Products</h2>
 
-<div *ngFor="let product of products">
+
+<!-- assign each index in the products array to the productId variable when iterating over the list -->
+<div *ngFor="let product of products; index as productId">
   <h3>
-    <a [title]="product.name + ' details'"> {{ product.name }} </a>
-    <span> ${{ product.price }} </span>
+    <a [title]="product.name + ' details'"
+    [routerLink]="['/product', productId]">
+    {{ product.name }} </a>
+    <span> {{ product.price | currency }} </span>
   </h3>
 
   <p *ngIf="product.description">Description: {{ product.description }}</p>
