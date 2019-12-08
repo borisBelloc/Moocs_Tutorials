@@ -12,11 +12,12 @@ _all remarks are welcomes_
 
 ### :balloon: Officials tutorials from randoms technologies (framework, libraries...) for which I have uploaded exercises corrections/examples of codes (_more to come_) :
 
-Lang | Website | link to tuto | what
-----| ----| ----| ----
-:us: | [Angular (official)](https://angular.io) | [Shopping website](https://angular.io/start) | Angular : Rooters (inside app.module.ts), httpClient (read from a json), forms...
-:us: :uk: | [Greensock](https://greensock.com/) | [TweenMax()](https://greensock.com/docs/TweenMax) | JavaScript 'framework' to make animations 'flash like'
+Lang | Website | link to tuto | what | C
+----| ----| ----| ----| ----
+:us: | [Angular (official)](https://angular.io) | [Shopping website](https://angular.io/start) | Angular : Rooters (inside app.module.ts), httpClient (read from a json), forms... | :white_check_mark:
+:us: :uk: | [Greensock](https://greensock.com/) | [TweenMax()](https://greensock.com/docs/TweenMax) | JavaScript 'framework' to make animations 'flash like' | :white_large_square:
 
+*C* : completed
 <br>
 <br>
 
