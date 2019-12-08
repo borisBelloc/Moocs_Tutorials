@@ -22,6 +22,9 @@ export class CartService {
     return this.items;
   }
 
+  /**
+   * Vide le panier
+   */
   clearCart() {
     this.items = [];
     return this.items;
