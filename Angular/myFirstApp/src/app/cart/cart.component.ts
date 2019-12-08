@@ -36,6 +36,8 @@ export class CartComponent implements OnInit {
    */
   onSubmit(customerData) {
     console.warn('Your order has been submitted', customerData);
+    console.warn('items in cart : ', this.items);
+
     // console.warn('Name : ', customerData.name);
     // console.warn('Adress : ', customerData.address);
 
