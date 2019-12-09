@@ -29,6 +29,8 @@ import { ShippingComponent } from './shipping/shipping.component';
       { path: 'product/:productId', component: ProductDetailsComponent },
       { path: 'cart', component: CartComponent },
       { path: 'shipping', component: ShippingComponent }
+      // Posibilité d'utiliser une redirect
+      // { path: '', redirectTo: 'simul', pathMatch: 'full' },
     ])
   ],
   declarations: [
