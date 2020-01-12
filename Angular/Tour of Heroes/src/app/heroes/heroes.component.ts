@@ -3,6 +3,9 @@ import { Hero } from '../class/hero';
 
 import { HeroService } from '../services/hero.service';
 
+// #t1
+import { MessageService } from '../services/message.service';
+
 @Component({
   selector: 'app-heroes',
   templateUrl: './heroes.component.html',
@@ -13,6 +16,8 @@ export class HeroesComponent implements OnInit {
   selectedHero: Hero;
 
   constructor(private heroService: HeroService) {}
+  // test #t1: add hero sekected to the message
+  // constructor(private heroService: HeroService, private messageService: MessageService) {}
 
   ngOnInit() {
     this.getHeroes();
@@ -20,6 +25,8 @@ export class HeroesComponent implements OnInit {
 
   onSelect(hero: Hero): void {
     this.selectedHero = hero;
+    // #t1
+    // this.messageService.add('hero added : ' + hero.name);
   }
 
   /* DOC : https://angular.io/tutorial/toh-pt4#subscribe-in-heroescomponent */
