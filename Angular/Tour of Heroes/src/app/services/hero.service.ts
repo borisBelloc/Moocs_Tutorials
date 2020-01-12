@@ -8,17 +8,16 @@ import { Observable, of } from 'rxjs';
 
 import { MessageService } from './message.service';
 
-
 @Injectable({
   providedIn: 'root'
 })
 export class HeroService {
-
-  constructor(private messageService: MessageService) { }
-
+  constructor(private messageService: MessageService) {}
 
   // of(HEROES) returns an Observable<Hero[]> that emits a single value, the array of mock heroes.
   getHeroes(): Observable<Hero[]> {
+    // TODO: send the message _after_ fetching the heroes
+    this.messageService.add('HeroService: fetched heroes');
     return of(HEROES);
   }
 
@@ -27,6 +26,5 @@ export class HeroService {
   //   return HEROES;
   // }
 }
-
 
 // CONTINUE : https://angular.io/tutorial/toh-pt4#inject-it-into-the-heroservice

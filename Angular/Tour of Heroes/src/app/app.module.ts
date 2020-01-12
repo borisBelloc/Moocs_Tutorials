@@ -9,7 +9,6 @@ import { FormsModule } from '@angular/forms';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { MessagesComponent } from './messages/messages.component'; // <-- NgModel lives here
 
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,12 +16,10 @@ import { MessagesComponent } from './messages/messages.component'; // <-- NgMode
     HeroDetailComponent,
     MessagesComponent
   ],
-  imports: [
-    BrowserModule,
-    FormsModule,
-    AppRoutingModule
+  imports: [BrowserModule, FormsModule, AppRoutingModule],
+  providers: [
+    // no need to place any providers due to the `providedIn` flag...
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
