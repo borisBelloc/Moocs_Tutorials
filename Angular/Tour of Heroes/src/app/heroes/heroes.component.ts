@@ -23,11 +23,14 @@ export class HeroesComponent implements OnInit {
     this.getHeroes();
   }
 
-  onSelect(hero: Hero): void {
-    this.selectedHero = hero;
+
+// Old code with selected hero
+// heroes.component.html (list with onSelect)
+  // onSelect(hero: Hero): void {
+  //   this.selectedHero = hero;
     // #t1
     // this.messageService.add('hero added : ' + hero.name);
-  }
+  // }
 
   /* DOC : https://angular.io/tutorial/toh-pt4#subscribe-in-heroescomponent */
   getHeroes(): void {
