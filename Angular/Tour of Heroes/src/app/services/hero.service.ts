@@ -17,7 +17,7 @@ export class HeroService {
   // of(HEROES) returns an Observable<Hero[]> that emits a single value, the array of mock heroes.
   getHeroes(): Observable<Hero[]> {
     // TODO: send the message _after_ fetching the heroes
-    this.messageService.add('HeroService: fetched heroes');
+    this.messageService.add('HeroService: obtainer heroes from mock-heroes');
     return of(HEROES);
   }
 
@@ -27,4 +27,4 @@ export class HeroService {
   // }
 }
 
-// CONTINUE : https://angular.io/tutorial/toh-pt4#inject-it-into-the-heroservice
+// CONTINUE : https://angular.io/tutorial/toh-pt5
