@@ -1,5 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+// ** Make HttpClient available everywhere in the app in two steps.
+// First, add it to the root AppModule by importing it:
+import { HttpClientModule } from '@angular/common/http';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -18,7 +22,13 @@ import { DashboardComponent } from './dashboard/dashboard.component'; // <-- NgM
     MessagesComponent,
     DashboardComponent
   ],
-  imports: [BrowserModule, FormsModule, AppRoutingModule],
+  // ** Next, still in the AppModule, add HttpClient(HttpClientModule) to the imports array:
+  imports: [
+    BrowserModule,
+    FormsModule,
+    AppRoutingModule,
+    HttpClientModule,
+  ],
   providers: [
     // no need to place any providers due to the `providedIn` flag...
   ],
