@@ -19,6 +19,11 @@ export class HeroService {
 
   private heroesUrl = 'api/heroes'; // URL to web api
 
+  /** used by HttpClient.put() */
+  httpOptions = {
+    headers: new HttpHeaders({ 'Content-Type': 'application/json' })
+  };
+
   // you keep injecting the MessageService but since you'll call it so frequently, wrap it in a private log() method :
   /** Log a HeroService message with the MessageService */
   private log(message: string) {
@@ -37,11 +42,23 @@ export class HeroService {
     );
   }
 
-  //   getHero(id: number): Observable<Hero> {
-  //   // Note the backticks ( ` ) that define a JavaScript template literal for embedding the id.
-  //   this.messageService.add(`HeroService: fetched hero id=${id}`);
-  //   return of(HEROES.find(hero => hero.id === id));
-  // }
+  /** GET hero by id. Will 404 if id not found */
+  getHero(id: number): Observable<Hero> {
+    const url = `${this.heroesUrl}/${id}`;
+    return this.http.get<Hero>(url).pipe(
+      tap(_ => this.log(`Tap message -> fetched hero id=${id}`)),
+      catchError(this.handleError<Hero>(`ERROR getHero id=${id}`))
+    );
+  }
+
+  /** PUT: update the hero on the server */
+  // DOC: The HttpClient.put() method takes three parameters: -The url -The data to update -options
+  updateHero(hero: Hero): Observable<any> {
+    return this.http.put(this.heroesUrl, hero, this.httpOptions).pipe(
+      tap(_ => this.log(`Tap message -> updated hero id=${hero.id}`)),
+      catchError(this.handleError<any>('updateHero'))
+    );
+  }
 
   /**
    * Handle Http operation that failed.

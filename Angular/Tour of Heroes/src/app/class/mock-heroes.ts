@@ -1,6 +1,5 @@
 // import { Hero } from './hero';
 
-
 /** No more used because of In-memory Web API
  * Exemple of a mock
  */
@@ -18,10 +17,8 @@
 //   { id: 75, name: 'Boris' }
 // ];
 
-
 // --------------------------------------------
 /** OLD SERVICE to use this mock mock was : */
-
 
 // import { HEROES } from '../class/mock-heroes';
 
@@ -31,4 +28,10 @@
 // getHeroes(): Observable<Hero[]> {
 //   this.messageService.add('HeroService: obtained heroes from mock-heroes');
 //   return of(HEROES);
+// }
+
+//   getHero(id: number): Observable<Hero> {
+//   // Note the backticks ( ` ) that define a JavaScript template literal for embedding the id.
+//   this.messageService.add(`HeroService: fetched hero id=${id}`);
+//   return of(HEROES.find(hero => hero.id === id));
 // }
