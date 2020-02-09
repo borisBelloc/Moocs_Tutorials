@@ -19,7 +19,7 @@ export class HeroService {
 
   private heroesUrl = 'api/heroes'; // URL to web api
 
-  /** used by HttpClient.put() */
+  /** used by updateHero() AND deleteHero() */
   httpOptions = {
     headers: new HttpHeaders({ 'Content-Type': 'application/json' })
   };
@@ -65,8 +65,21 @@ export class HeroService {
   // receives the new hero and pushes it into to the heroes list for display.
   addHero(hero: Hero): Observable<Hero> {
     return this.http.post<Hero>(this.heroesUrl, hero, this.httpOptions).pipe(
-      tap((newHero: Hero) => this.log(`Tap message -> added hero w/ id=${newHero.id}`)),
+      tap((newHero: Hero) =>
+        this.log(`Tap message -> added hero w/ id=${newHero.id}`)
+      ),
       catchError(this.handleError<Hero>('addHero'))
+    );
+  }
+
+  /** DELETE: delete the hero from the server */
+  deleteHero(hero: Hero | number): Observable<Hero> {
+    const id = typeof hero === 'number' ? hero : hero.id;
+    const url = `${this.heroesUrl}/${id}`;
+
+    return this.http.delete<Hero>(url, this.httpOptions).pipe(
+      tap(_ => this.log(`Tap message -> deleted hero id=${id}`)),
+      catchError(this.handleError<Hero>('deleteHero'))
     );
   }
 
