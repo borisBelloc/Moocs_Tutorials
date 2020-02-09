@@ -24,10 +24,10 @@ export class HeroService {
   getHero(id: number): Observable<Hero> {
     // TODO: send the message _after_ fetching the hero
     // Note the backticks ( ` ) that define a JavaScript template literal for embedding the id.
-
     this.messageService.add(`HeroService: fetched hero id=${id}`);
     return of(HEROES.find(hero => hero.id === id));
   }
+
 
 
   /* Get data from the mock (wont work with real http cause of async response) */
@@ -36,4 +36,5 @@ export class HeroService {
   // }
 }
 
-// CONTINUE : https://angular.io/tutorial/toh-pt5
+// CONTINUE :
+

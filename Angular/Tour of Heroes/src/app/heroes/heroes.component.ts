@@ -16,7 +16,7 @@ export class HeroesComponent implements OnInit {
   selectedHero: Hero;
 
   constructor(private heroService: HeroService) {}
-  // test #t1: add hero sekected to the message
+  // test #t1: add hero selected to the message
   // constructor(private heroService: HeroService, private messageService: MessageService) {}
 
   ngOnInit() {

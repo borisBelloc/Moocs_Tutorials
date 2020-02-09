@@ -14,9 +14,9 @@ import { Location } from '@angular/common';
 export class HeroDetailComponent implements OnInit {
 
   // Allow to pass the hero as :  [hero]="selectedHero" (heroes.component.html)
-  @Input() hero: Hero;
+  // @Input() hero: Hero;
 
-
+  hero: Hero;
 
   // The ActivatedRoute holds information about the route to this instance of the HeroDetailComponent.
   // This component is interested in the route's parameters extracted from the URL.
@@ -37,10 +37,17 @@ export class HeroDetailComponent implements OnInit {
     this.getHero();
   }
 
+  // The route.snapshot is a static image of the route information shortly
+  // after the component was created.
+
   getHero(): void {
     const id = +this.route.snapshot.paramMap.get('id');
     this.heroService.getHero(id)
       .subscribe(hero => this.hero = hero);
+  }
+
+  goBack(): void {
+    this.location.back();
   }
 
 }
