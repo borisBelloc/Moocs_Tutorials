@@ -102,3 +102,7 @@ export class HeroService {
     };
   }
 }
+
+
+// CONTINUE : Search by name
+// https://angular.io/tutorial/toh-pt6#search-by-name
