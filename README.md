@@ -14,6 +14,7 @@ _all remarks are welcomes_
 
 Lang | Website | link to tuto | what | C
 ----| ----| ----| ----| ----
+:fr: | [OpenClassRoom](https://openclassrooms.com/fr) | [Angular5](https://openclassrooms.com/fr/courses/4668271-developpez-des-applications-web-avec-angular) | / | /
 :us: | [Angular (official)](https://angular.io) | [Tour of Heroes](https://angular.io/tutorial) | Angular concepts | :white_check_mark:
 :us: | [Baeldung](https://www.baeldung.com/)  | [Web App](https://www.baeldung.com/spring-boot-angular-web) | Spring web application with Angular front and PostGreSQL | :white_large_square:
 :us: | [Angular (official)](https://angular.io) | [Shopping website](https://angular.io/start) | Angular : Rooters (inside app.module.ts), httpClient (read from a json), forms... | :white_check_mark:
