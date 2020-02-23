@@ -79,9 +79,9 @@ _Tous les quizz/activités ne sont pas encore uploadé_
 
 Techno | Cours/url | Durée estimé | difficulté | terminé? | Activités | Quizz
 --- |--- |--- |--- |--- |--- |--- |
+Angular | [Développez des applications Web avec Angular](https://openclassrooms.com/fr/courses/4668271-developpez-des-applications-web-avec-angular) | 20h | Moyenne | _todo_ | 0/2 | 0/3
 JAVA | [Apprenez à programmer en Java](https://openclassrooms.com/fr/courses/26832-apprenez-a-programmer-en-java) | 40h | Difficile | :point_right: _en cours_ | 0/2 | 0/4
 JAVA, Spring | [Simplifiez le développement d'applications Java avec Spring](https://openclassrooms.com/fr/courses/4504771-simplifiez-le-developpement-dapplications-java-avec-spring) | 15h | Moyenne | _next_ | 0/1 | 0/1
-Angular | [Développez des applications Web avec Angular](https://openclassrooms.com/fr/courses/4668271-developpez-des-applications-web-avec-angular) | 20h | Moyenne | _todo_ | 0/2 | 0/3
 Design | [UX design : découvrez les fondamentaux !](https://openclassrooms.com/fr/courses/3013856-ux-design-decouvrez-les-fondamentaux) | 8h | Moyenne | _todo_ | 0/1 | 0/4
 Design | [Initiez-vous au Design Thinking](https://openclassrooms.com/fr/courses/3013836-initiez-vous-au-design-thinking) | 6h | Facile | _todo_ | 0/1 | 0/3
 JAVA | [Organisez et packagez une application Java avec Apache Maven](https://openclassrooms.com/fr/courses/4503526-organisez-et-packagez-une-application-java-avec-apache-maven) | 15h | Moyenne | _todo_ | 0/1 | 0/1
