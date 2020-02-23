@@ -8,20 +8,28 @@ import { Component } from '@angular/core';
 export class AppComponent {
   isAuth = false;
 
-  appareilOne = 'Machine à laver';
-  appareilTwo = 'Télévision';
-  appareilThree = 'Ordinateur';
+  appareils = [
+    {
+      name: 'Machine à laver',
+      status: 'éteint'
+    },
+    {
+      name: 'Frigo',
+      status: 'allumé'
+    },
+    {
+      name: 'Ordinateur',
+      status: 'éteint'
+    }
+  ];
 
   constructor() {
-    setTimeout(
-      () => {
-        this.isAuth = true;
-      }, 2000
-    );
+    setTimeout(() => {
+      this.isAuth = true;
+    }, 2000);
   }
 
   onAllumer() {
     console.log('On allume tout! ');
-
   }
 }
