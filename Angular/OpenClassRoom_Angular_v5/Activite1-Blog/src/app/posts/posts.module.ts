@@ -9,6 +9,10 @@ import { PostListItemComponent } from './post-list-item/post-list-item.component
   declarations: [PostListComponent, PostListItemComponent],
   imports: [
     CommonModule
+  ],
+  exports: [
+    PostListComponent,
+
   ]
 })
 export class PostsModule { }
