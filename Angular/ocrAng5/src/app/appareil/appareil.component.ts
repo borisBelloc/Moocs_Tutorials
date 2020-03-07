@@ -9,6 +9,15 @@ export class AppareilComponent implements OnInit {
   @Input() appareilName: string;
   @Input() appareilStatus: string;
 
+  lastUpdate = new Promise((resolve, reject) => {
+    const date = new Date();
+    setTimeout(
+      () => {
+        resolve(date);
+      }, 2000
+    );
+  });
+
   constructor() {}
 
   ngOnInit(): void {}
@@ -24,4 +33,6 @@ export class AppareilComponent implements OnInit {
       return 'red';
     }
   }
+
+
 }
