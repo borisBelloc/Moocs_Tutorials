@@ -14,7 +14,6 @@ _all remarks are welcomes_
 
 Lang | Website | link to tuto | what | C
 ----| ----| ----| ----| ----
-:fr: | [OpenClassRoom](https://openclassrooms.com/fr) | [Angular5](https://openclassrooms.com/fr/courses/4668271-developpez-des-applications-web-avec-angular) | / | /
 :us: | [Angular (official)](https://angular.io) | [Tour of Heroes](https://angular.io/tutorial) | Angular concepts | :white_check_mark:
 :us: | [Baeldung](https://www.baeldung.com/)  | [Web App](https://www.baeldung.com/spring-boot-angular-web) | Spring web application with Angular front and PostGreSQL | :white_large_square:
 :us: | [Angular (official)](https://angular.io) | [Shopping website](https://angular.io/start) | Angular : Rooters (inside app.module.ts), httpClient (read from a json), forms... | :white_check_mark:
@@ -72,7 +71,6 @@ _French MOOC ; (explain the french description)_
 
 #### :orange_book: Liste des cours:
 _Quizz et corrections des activités disponibles_
-_Tous les quizz/activités ne sont pas encore uploadé_
 
 [List of Practical works](#list-of-tp-practical-work-from-Moocs)
 
@@ -80,8 +78,8 @@ _Tous les quizz/activités ne sont pas encore uploadé_
 
 Techno | Cours/url | Durée estimé | difficulté | terminé? | Activités | Quizz
 --- |--- |--- |--- |--- |--- |--- |
-Angular | [Développez des applications Web avec Angular](https://openclassrooms.com/fr/courses/4668271-developpez-des-applications-web-avec-angular) | 20h | Moyenne | _todo_ | 0/2 | 0/3
-JAVA | [Apprenez à programmer en Java](https://openclassrooms.com/fr/courses/26832-apprenez-a-programmer-en-java) | 40h | Difficile | :point_right: _en cours_ | 0/2 | 0/4
+Angular 5 :warning: folder _Angular_| [Développez des applications Web avec Angular](https://openclassrooms.com/fr/courses/4668271-developpez-des-applications-web-avec-angular) | 20h | Moyenne | _en cours_ | 0/2 | 0/3
+JAVA | [Apprenez à programmer en Java](https://openclassrooms.com/fr/courses/26832-apprenez-a-programmer-en-java) | 40h | Difficile | :point_right: _to continue_ | 0/2 | 0/4
 JAVA, Spring | [Simplifiez le développement d'applications Java avec Spring](https://openclassrooms.com/fr/courses/4504771-simplifiez-le-developpement-dapplications-java-avec-spring) | 15h | Moyenne | _next_ | 0/1 | 0/1
 Design | [UX design : découvrez les fondamentaux !](https://openclassrooms.com/fr/courses/3013856-ux-design-decouvrez-les-fondamentaux) | 8h | Moyenne | _todo_ | 0/1 | 0/4
 Design | [Initiez-vous au Design Thinking](https://openclassrooms.com/fr/courses/3013836-initiez-vous-au-design-thinking) | 6h | Facile | _todo_ | 0/1 | 0/3
