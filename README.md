@@ -78,7 +78,7 @@ _Quizz et corrections des activités disponibles_
 
 Techno | Cours/url | Durée estimé | difficulté | terminé? | Activités | Quizz
 --- |--- |--- |--- |--- |--- |--- |
-Angular 5 :warning: folder _Angular_| [Développez des applications Web avec Angular](https://openclassrooms.com/fr/courses/4668271-developpez-des-applications-web-avec-angular) | 20h | Moyenne | _en cours_ | 0/2 | 0/3
+Angular 5 :warning: folder _Angular_| [Développez des applications Web avec Angular](https://openclassrooms.com/fr/courses/4668271-developpez-des-applications-web-avec-angular) | 20h | Moyenne | _en cours_ | 1/2 | 1/3
 JAVA | [Apprenez à programmer en Java](https://openclassrooms.com/fr/courses/26832-apprenez-a-programmer-en-java) | 40h | Difficile | :point_right: _to continue_ | 0/2 | 0/4
 JAVA, Spring | [Simplifiez le développement d'applications Java avec Spring](https://openclassrooms.com/fr/courses/4504771-simplifiez-le-developpement-dapplications-java-avec-spring) | 15h | Moyenne | _next_ | 0/1 | 0/1
 Design | [UX design : découvrez les fondamentaux !](https://openclassrooms.com/fr/courses/3013856-ux-design-decouvrez-les-fondamentaux) | 8h | Moyenne | _todo_ | 0/1 | 0/4
