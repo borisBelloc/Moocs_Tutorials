@@ -8,8 +8,7 @@ import { Post } from 'src/app/models/post';
 })
 export class PostListComponent implements OnInit {
 
-  @Input() postTitle: string;
-  @Input() postContent: string;
+  @Input() postList: Post[];
 
   constructor() { }
 

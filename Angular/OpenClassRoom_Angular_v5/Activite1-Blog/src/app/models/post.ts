@@ -2,6 +2,7 @@ export class Post {
   title: string;
   content: string;
   loveIts?: number;
+  createdDate?: Date;
 
   /* Permet de ne pas remplir tout les parametres lors de la creation de l'objet
   A utiliser avec :   post2: Post = new Post( {title: 'AA', content: 'Earth'} )
@@ -11,14 +12,17 @@ export class Post {
   //     this.loveIts = 0;
   //   }
 
-  constructor(title: string, content: string, loveIts?: number) {
+  // TODO: permettre creation d'un objet sans loveIts et lem ettre a 0 si non présent
+
+  constructor(title: string, content: string, loveIts?: number, createdDate?: Date) {
     this.title = title;
     this.content = content;
+    this.loveIts = loveIts;
 
-    if (!this.loveIts) {
-      this.loveIts = 0;
+    if (!this.createdDate) {
+      this.createdDate = new Date();
     } else {
-      this.loveIts = loveIts;
+      this.createdDate = createdDate;
     }
 
 

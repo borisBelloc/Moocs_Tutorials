@@ -9,11 +9,11 @@ import { Post } from './models/post';
 export class AppComponent implements OnInit {
 
   posts: Post[] = [
-    new Post( 'John', 'Hero inconnu' ),
-    new Post( 'Alberto', 'Voiture rouge' ),
-    new Post( 'Jack', 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae, sequi!' ),
-    new Post( 'Justin', 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, quod.' ),
-    new Post( 'Pedro', 'Lorem ipsum dolor sit amet.' ),
+    new Post( 'John', 'Hero inconnu', 0 ),
+    new Post( 'Alberto', 'Voiture rouge', -5 ),
+    new Post( 'Jack', 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae, sequi!', 4 ),
+    new Post( 'Justin', 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, quod.', 10 ),
+    new Post( 'Stéphanie', 'Lorem ipsum dolor sit amet.', 0 ),
   ];
 
   // posts: Post[] =
