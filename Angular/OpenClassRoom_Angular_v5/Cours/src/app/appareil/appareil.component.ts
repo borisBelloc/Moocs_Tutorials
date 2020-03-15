@@ -10,16 +10,8 @@ export class AppareilComponent implements OnInit {
   @Input() appareilName: string;
   @Input() appareilStatus: string;
   @Input() indexOfAppareil: number;
+  @Input() id: number;
 
-  // * Display date after 2 secondes
-  // lastUpdate = new Promise((resolve, reject) => {
-  //   const date = new Date();
-  //   setTimeout(
-  //     () => {
-  //       resolve(date);
-  //     }, 2000
-  //   );
-  // });
 
   constructor(
     private appareilService: AppareilService

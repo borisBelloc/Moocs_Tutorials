@@ -6,8 +6,6 @@
   appliquera l'une ou l'autre des deux autres classes.
 -->
 
-<!-- <p>Mis à jour : {{ lastUpdate | async | date: 'd MMMM y' | uppercase }}</p> -->
-
 <li
   [ngClass]="{
     'list-group-item': true,
@@ -15,13 +13,18 @@
     'list-group-item-danger': appareilStatus === 'éteint'
   }"
 >
-  <!-- <div style="width:20px;height:20px;background-color:red;"
-       *ngIf="appareilStatus === 'éteint'">
-  </div> -->
-
   <h4 [ngStyle]="{ color: getColor() }">
     Appareil : {{ appareilName }} -- Statut : {{ getStatus() }}
   </h4>
+
+  <!-- * on utilise le propertybinding car on passe une variable (routerLink) -->
+  <button
+  class="btn btn-info mr-3"
+  [routerLink]="[id]"
+  >
+      Détail
+  </button>
+
   <!-- * NgModel Input -->
   <!-- <input type="text" class="form-control" [(ngModel)]="appareilName"> -->
 

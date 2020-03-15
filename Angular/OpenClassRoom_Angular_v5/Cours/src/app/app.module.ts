@@ -9,21 +9,42 @@ import { FormsModule } from '@angular/forms';
 import { AppareilService } from './services/appareil.service';
 import { AuthComponent } from './auth/auth.component';
 import { AppareilViewComponent } from './appareil-view/appareil-view.component';
+import { Routes, RouterModule } from '@angular/router';
+import { AuthService } from './services/auth.service';
+import { SingleAppareilComponent } from './single-appareil/single-appareil.component';
+import { FourOhFourComponent } from './four-oh-four/four-oh-four.component';
+import { AuthGuard } from './services/auth.guard';
+
+const appRoutes: Routes = [
+  { path: '', component: AppareilViewComponent },
+  { path: 'appareils', canActivate: [AuthGuard], component: AppareilViewComponent },
+  { path: 'appareils/:id', canActivate: [AuthGuard], component: SingleAppareilComponent },
+  { path: 'auth', component: AuthComponent },
+  { path: 'not-found', component: FourOhFourComponent },
+  // le 404 doit etre à la fin car angular parcour les routes dans l'ordre
+  { path: '**', redirectTo: '/not-found' },
+
+];
 
 @NgModule({
   declarations: [
     AppComponent,
     AppareilComponent,
     AuthComponent,
-    AppareilViewComponent
+    AppareilViewComponent,
+    SingleAppareilComponent,
+    FourOhFourComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [
-    AppareilService
+    AppareilService,
+    AuthService,
+    AuthGuard
   ],
   bootstrap: [AppComponent]
 })
