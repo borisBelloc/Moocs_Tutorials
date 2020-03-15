@@ -7,14 +7,11 @@ import { AppareilService } from './services/appareil.service';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-
   isAuth = false;
 
   appareils: any[];
 
-  constructor(
-    private appareilService: AppareilService
-  ) {
+  constructor(private appareilService: AppareilService) {
     setTimeout(() => {
       this.isAuth = true;
     }, 2000);
@@ -29,6 +26,10 @@ export class AppComponent implements OnInit {
   }
 
   onEteindre() {
-    this.appareilService.switchOffAll();
+    if (confirm('Etes-vous sûr de vouloir éteindre tous vos appareils ?')) {
+      this.appareilService.switchOffAll();
+    } else {
+      return null;
+    }
   }
 }
