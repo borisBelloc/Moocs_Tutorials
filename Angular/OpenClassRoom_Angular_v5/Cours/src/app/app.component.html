@@ -1,26 +1,7 @@
 <div class="container">
   <div class="row">
-    <div class="col-xs-12">
 
-      <h2>Mes appareils</h2>
-      <ul class="list-group">
-        <!-- Fournis au composant l'index de appareil -->
-        <app-appareil
-          *ngFor="let appareil of appareils; let i = index"
-          [indexOfAppareil]="i"
-          [appareilName]="appareil.name"
-          [appareilStatus]="appareil.status"
-        ></app-appareil>
-      </ul>
-      <button
-        class="btn btn-success mt-3"
-        (click)="onAllumer()"
-      >
-        Tout allumer
-      </button>
+  <app-appareil-view></app-appareil-view>
 
-      <button class="btn btn-danger ml-5 mt-3" (click)="onEteindre()"> Tout éteindre</button>
-
-    </div>
   </div>
 </div>
