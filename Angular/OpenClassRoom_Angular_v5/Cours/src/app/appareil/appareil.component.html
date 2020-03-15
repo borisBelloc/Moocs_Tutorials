@@ -1,6 +1,4 @@
-<li class="list-group-item">
-
-  <!-- <div style="width:20px;height:20px;background-color:red;"
+<!-- <div style="width:20px;height:20px;background-color:red;"
   *ngIf="appareilStatus === 'éteint'"></div> -->
 
 <!-- Angular appliquera donc systématiquement la classe  list-group-item,
@@ -8,18 +6,38 @@
   appliquera l'une ou l'autre des deux autres classes.
 -->
 
-<p>Mis à jour : {{ lastUpdate | async | date: 'd MMMM y' | uppercase }}</p>
+<!-- <p>Mis à jour : {{ lastUpdate | async | date: 'd MMMM y' | uppercase }}</p> -->
 
-<li [ngClass]="{'list-group-item': true,
-                'list-group-item-success': appareilStatus === 'allumé',
-                'list-group-item-danger': appareilStatus === 'éteint'}">
-
-  <div style="width:20px;height:20px;background-color:red;"
+<li
+  [ngClass]="{
+    'list-group-item': true,
+    'list-group-item-success': appareilStatus === 'allumé',
+    'list-group-item-danger': appareilStatus === 'éteint'
+  }"
+>
+  <!-- <div style="width:20px;height:20px;background-color:red;"
        *ngIf="appareilStatus === 'éteint'">
-  </div>
+  </div> -->
 
-  <h4 [ngStyle]="{color: getColor()}">Appareil : {{ appareilName }} -- Statut : {{ getStatus() }}</h4>
-  <input type="text" class="form-control" [(ngModel)]="appareilName">
+  <h4 [ngStyle]="{ color: getColor() }">
+    Appareil : {{ appareilName }} -- Statut : {{ getStatus() }}
+  </h4>
+  <!-- * NgModel Input -->
+  <!-- <input type="text" class="form-control" [(ngModel)]="appareilName"> -->
 
+  <button
+    class="btn btn-success"
+    (click)="onSwitchOn()"
+    [disabled]="appareilStatus === 'allumé'"
+  >
+    On
+  </button>
+
+  <button
+    class="btn btn-danger"
+    (click)="onSwitchOff()"
+    [disabled]="appareilStatus === 'éteint'"
+  >
+    Off
+  </button>
 </li>
-
