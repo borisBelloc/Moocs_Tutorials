@@ -41,6 +41,7 @@ Language/Framework name | ? | lang
 [Bootstrap 4.0 Official](https://getbootstrap.com/docs/4.1/getting-started/introduction/) | framework for building responsive website | EN
 [Bootstrap 4.0 @Laravel](https://laravel.sillo.org/bootstrap-4) | A french tutorial about boostrap 4 | FR
 [VueJS @Laravel](http://laravel.sillo.org/vue-js) | A french tutorial about VueJS | FR
+[Chrome extention](https://developer.chrome.com/extensions/getstarted] | Google tutorial about chrome extension | EN
 
 <br>
 <br>
