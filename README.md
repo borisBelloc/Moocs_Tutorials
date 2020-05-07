@@ -14,6 +14,7 @@ _all remarks are welcomes_
 
 Lang | Website | link to tuto | what | C
 ----| ----| ----| ----| ----
+:us: | / |[Chrome extention (official)](https://developer.chrome.com/extensions/getstarted) | Google tutorial to make chrome extension | :white_large_square:
 :us: | [Angular (official)](https://angular.io) | [Tour of Heroes](https://angular.io/tutorial) | Angular concepts | :white_check_mark:
 :us: | [Baeldung](https://www.baeldung.com/)  | [Web App](https://www.baeldung.com/spring-boot-angular-web) | Spring web application with Angular front and PostGreSQL | :white_large_square:
 :us: | [Angular (official)](https://angular.io) | [Shopping website](https://angular.io/start) | Angular : Rooters (inside app.module.ts), httpClient (read from a json), forms... | :white_check_mark:
@@ -41,7 +42,7 @@ Language/Framework name | ? | lang
 [Bootstrap 4.0 Official](https://getbootstrap.com/docs/4.1/getting-started/introduction/) | framework for building responsive website | EN
 [Bootstrap 4.0 @Laravel](https://laravel.sillo.org/bootstrap-4) | A french tutorial about boostrap 4 | FR
 [VueJS @Laravel](http://laravel.sillo.org/vue-js) | A french tutorial about VueJS | FR
-[Chrome extention](https://developer.chrome.com/extensions/getstarted] | Google tutorial about chrome extension | EN
+[Chrome extention](https://developer.chrome.com/extensions/getstarted) | Google tutorial about chrome extension | EN
 
 <br>
 <br>
