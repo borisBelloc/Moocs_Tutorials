@@ -16,8 +16,8 @@ Lang | folder | link to tuto | what | C
 ----| ----| ----| ----| ----
 :us: | Chrome_Extensions |[Chrome extention (official)](https://developer.chrome.com/extensions/getstarted) | Google tutorial to make chrome extension | :white_check_mark:
 :us: | Angular | [Tour of Heroes](https://angular.io/tutorial) | Angular concepts | :white_check_mark:
-:us: | [deleted from repo]  | [Web App](https://www.baeldung.com/spring-boot-angular-web) | Spring web application with Angular front and PostGreSQL | :white_large_square:
-:us: | Angular | [Angular (official)](https://angular.io) | [Shopping website](https://angular.io/start) | Angular : Rooters (inside app.module.ts), httpClient (read from a json), forms... | :white_check_mark:
+:us: | deleted  | [Web App](https://www.baeldung.com/spring-boot-angular-web) | Spring web application with Angular front and PostGreSQL | :white_large_square:
+:us: | Angular | [Shopping website](https://angular.io/start) | Angular : Rooters (inside app.module.ts), httpClient (read from a json), forms... | :white_check_mark:
 :us: :uk: | Greensock | [TweenMax()](https://greensock.com/docs/TweenMax) | JavaScript 'framework' to make animations 'flash like' | :white_large_square:
 
 *C* : completed
